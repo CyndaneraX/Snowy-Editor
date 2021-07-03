@@ -1,0 +1,17 @@
+.ufpt - snowy font file format
+
+struct_root {
+    u32 sign; // value is 17982, string being ">F"
+	u16 charCount;
+	u16 charWidth;
+	u16 charHeight;
+	u16 charFramesInLine;
+	u16 unk;
+	u16 unk;
+	
+	struct_char {
+	    u16 frame;
+		u8 string;
+		u16 unk;
+	}
+}

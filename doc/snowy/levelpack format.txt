@@ -1,0 +1,20 @@
+.spk - snowy level pack file format
+default width and height is 20x14
+
+struct_root {
+    u32 sign; // string is "SH"
+	u32 unk; // value is 16 always
+	u32 levelCount;
+    
+    struct_level {
+	    u16 world;
+	    u16 mapWidth;
+		u16 mapHeight;
+		
+		u16 tile[x][y];
+		u16 object[x][y];
+		
+		u32 unk;
+		u32 unk;
+	}
+}

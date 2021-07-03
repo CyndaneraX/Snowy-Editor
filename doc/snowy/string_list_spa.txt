@@ -1,0 +1,2084 @@
+XPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+vector<T> too long
+Publisher URI="http://alawar.com">Alawar  Entertainment</Publisher>
+		</Publishers>
+		<GameExecutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+Data\Config\Hero.ini
+Walk
+HERO
+Data\Game\Hero\Jump.dds
+Throw
+Kick
+Data\Game\Hero\InSnowball.dds
+Data\Game\Hero\Death.dds
+Data\Game\Hero\Happy.dds
+RedDeathStar
+WhiteDeathStar
+YellowDeathStar
+Data\Game\Hero\SnowBall.dds
+Trail
+BigSnowball
+Part
+Data\Game\Monsters\BigSnowball\Part4.dds
+Data\Game\Monsters\BigSnowball\Part8.dds
+IceSplinter
+Data\Config\Monster_Knock.ini
+Data\Config\Timer.ini
+Data\Config\Ghost.ini
+9.dds
+Life
+Power
+Range
+Speed
+MissGround: %d
+StandCount: %f
+Floor: %d
+FlyDelay: %f
+ShootDelay: %f
+MustShootDelay: %f
+bAttachMask_r: %d
+bAttachMask_l: %d
+vx_ball: %f
+vy_ball: %f
+CollideCount_l: %d
+CollideCount_r: %d
+IsFreeze_l: %d
+bMask_l: %d
+awar.com">Alawar  Entertainment</Publisher>
+		</Publishers>
+		<GameExecutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+table path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+cutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+ainment</Publisher>
+		</Publishers>
+		<GameExecutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+/Publishers>
+		<GameExecutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+vx: %f
+vy: %f
+ExplosionDelay: %f
+FirstFloorDelay: %f
+LogicType: %d
+column: %d
+row: %d
+Floor2_Jumps: %d
+Floor3_Jumps: %d
+Floor3_Jump: %d
+LidOpenDelay: %f
+TurnDelay: %f
+Start Of Scan: %d components
+5000
+1000
+1500
+2000
+10000
+8000
+Data\Music\bossmusic.ogg
+SUPERGIFT
+TIMEISUP
+ONLYHELICOPTERS
+IWANTTOWIN
+IGOINGTOWIN
+THISGAMEISHARD
+LETSRUN
+ITSSOFAR
+BIGANDHEAVY
+THEBOX
+ONEMORELIFEPLEASE
+nAction: %d
+bDemoMode: %d
+Actions.size(): %d
+ActionDelay: %f
+ublishers>
+			<Publisher URI="http://alawar.com">Alawar  Entertainment</Publisher>
+		</Publishers>
+		<GameExecutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+Height
+CollideRect_Width
+CollideRect_Height
+vx_walk_ground
+vx_walk_air
+vx_run_ground
+vx_run_air
+vx_braking
+vx_sliding
+vy_jump
+vy_maxfall
+vy_fall
+vy_startfall
+vx_god
+vy_god
+HERODEATH
+Data\Config\Snowball.ini
+SNOWBALL
+vx_start
+vy_start
+Data\Config\RedMonster.ini
+REDMONSTER
+vx_roll_ground
+vx_air
+Freeze_AnimStep
+Freeze_AddStep
+Freeze_AddStep2
+Freeze_Max
+Data\Config\GreenMonster.ini
+GREENMONSTER
+vx_ground
+Data\Config\Monster_Dog.ini
+vy_jumpdown
+\BigSnowball\Part8.dds
+Data\Config\Monster_Cat.ini
+Data\Config\Ball.ini
+BALL
+MaxAnimSpeed
+Data\Config\Monster_Bird.ini
+BIRD
+Data\Config\Monster_Tusk.ini
+MONSTERTUSK
+vx_fly
+Data\Config\Monster_Tornado.ini
+MONSTERTORNADO
+vfly
+Data\Config\TornadoBullet.ini
+TornadoBullet
+AddDelay
+Data\Config\Monster_Bomber.ini
+BOMBER
+Data\Config\BomberBomb.ini
+BOMBERBOMB
+Data\Config\Monster_BallBot.ini
+BALLBOT
+Data\Config\Fireball.ini
+FIREBALL
+start_scale
+vscale
+start_alpha
+valpha
+FIRESPLINTER
+red0
+red1
+red2
+red3
+green0
+green1
+green2
+green3
+blue0
+blue1
+blue2
+blue3
+vcolorfade
+Data\Config\Bubbleball.ini
+BUBBLEBALL
+Data\Config\BigSnowball.ini
+BIGSNOWBALL
+BigSnowball_MaxAnimSpeed
+KNOCK
+DeadDelay
+Data\Config\Bonus.ini
+BONUS
+EXTRABONUS
+Life_Height
+Power_Height
+Range_Height
+Speed_Height
+God_Height
+Score1_Height
+Score2_Height
+Score3_Height
+Score4_Height
+Score5_Height
+Score6_Height
+Great_Height
+Nice_Height
+Good_Height
+SparkLife
+SPARK
+radius
+vpulsar
+SparkAddDelay
+vspark
+BONUSHINT
+FadeIn
+maxalpha
+valpha_in
+valpha_out
+God_Life
+God_MinFreq
+God_MaxFreq
+Box1_Height
+BONUSBOX
+Box2_Height
+Box3_Height
+Box4_Height
+Data\Config\BossBag.ini
+BOSSBAG
+OpenDelay
+SmokeAddDelay
+Data\Config\BossTeapot.ini
+BOSSTEAPOT
+Data\Config\BossBalloon.ini
+BOSSBALLOON
+Data\Config\BossMask.ini
+BOSSMASK
+CollideRectBall_Width
+CollideRectBall_Height
+Data\Config\BossHen.ini
+BOSSHEN
+Data\Config\BossMonster.ini
+BOSSMONSTER
+Data\Config\BossMonsterBomb.ini
+BOSSMONSTERBOMB
+Data\Config\BossMonsterFly.ini
+BOSSMONSTERFLY
+Data\Config\BossMonsterEgg.ini
+BOSSMONSTEREGG
+CLOCK
+StandDelay
+StandDelay2
+MoveDelay
+start_posx
+start_posy
+TimerSpeed
+GHOST
+Data\Config\Hints.ini
+Great
+HINTS
+Nice
+Good
+Helicopter
+Boss
+FirstSnowball
+Controls.ini
+CONTROLS
+Down
+Jump
+Left
+Right
+Fire
+JoyPlusX
+JoyMinusX
+JoyPlusY
+JoyMinusY
+JoyFire
+JoyJump
+JoyESC
+Data\Game\Hero\Run.dds
+Data\Game\Hero\Walk.dds
+Data\Game\Hero\Stand.dds
+Stand
+Data\Game\Hero\Throw.dds
+Data\Game\Hero\Kick.dds
+Data\Game\Hero\Push.dds
+Push
+InSnowball
+Death
+Happy
+Data\Game\Hero\Appear.dds
+Appear
+Data\Game\Hero\God.dds
+Data\Game\Effects\RedDeathStar.dds
+Data\Game\Effects\WhiteDeathStar.dds
+Data\Game\Effects\YellowDeathStar.dds
+Data\Game\Hero\PowerSnowball.dds
+Data\Game\Effects\SnowBallHit.dds
+Data\Game\Effects\SmallSnowflake.tga
+Data\Game\Monsters\BigSnowball\BigSnowball.dds
+Data\Game\Monsters\BigSnowball\Part1.dds
+Data\Game\Monsters\BigSnowball\Part2.dds
+Data\Game\Monsters\BigSnowball\Part3.dds
+Data\Game\Monsters\BigSnowball\Part5.dds
+Data\Game\Monsters\BigSnowball\Part6.dds
+Data\Game\Monsters\BigSnowball\Part7.dds
+Data\Game\Monsters\BigSnowball\Part9.dds
+Data\Game\Effects\IceSplinter2.dds
+Data\Game\Effects\IceSplinter3.dds
+Data\Game\Effects\Snowflake.tga
+Trail2
+Data\Game\Effects\IceSplinter.dds
+IceSplinter2
+IceSplinter3
+Data\Game\Monsters\Clock\Stand.dds
+Data\Game\Monsters\Clock\Boom.dds
+Boom
+Data\Game\Monsters\Ghost\Fly.dds
+Data\Game\Interface\HintFont.ufpt
+Data\Game\Interface\HintFont.dds
+Data\Game\Bonuses\Life.dds
+Data\Game\Bonuses\Power.dds
+Data\Game\Bonuses\Range.dds
+Data\Game\Bonuses\Speed.dds
+Data\Game\Bonuses\God.dds
+Data\Game\Bonuses\Score1.dds
+Score1
+Data\Game\Bonuses\Score2.dds
+Score2
+Data\Game\Bonuses\Score3.dds
+Score3
+Data\Game\Bonuses\Score4.dds
+Score4
+Data\Game\Bonuses\Score5.dds
+Score5
+Data\Game\Bonuses\Score6.dds
+Score6
+Data\Game\Bonuses\Great.dds
+Data\Game\Bonuses\Nice.dds
+Data\Game\Bonuses\Good.dds
+Data\Game\Effects\RedBonusSpark.dds
+RedSpark
+Data\Game\Effects\BlueBonusSpark.dds
+BlueSpark
+Data\Game\Effects\GreenBonusSpark.dds
+GreenSpark
+Data\Game\Bonuses\Hint_Life.dds
+Data\Game\Bonuses\Hint_PowerUp.dds
+Data\Game\Bonuses\Hint_RangeUp.dds
+Data\Game\Bonuses\Hint_SpeedUp.dds
+Data\Game\Bonuses\FlyScore.ufpt
+Data\Game\Bonuses\FlyScoreFont.dds
+Data\Game\BonusBoxes\Box1\Fly.dds
+Data\Game\BonusBoxes\Box1\Landing.dds
+Landing1
+Data\Game\BonusBoxes\Box1\Part1.dds
+Part1
+BonusBox
+Data\Game\BonusBoxes\Box1\Part2.dds
+Data\Game\BonusBoxes\Box1\Part3.dds
+Data\Game\BonusBoxes\Box1\Part4.dds
+Data\Game\BonusBoxes\Box1\Part5.dds
+Data\Game\BonusBoxes\Box1\Part6.dds
+Data\Game\BonusBoxes\Box1\Part7.dds
+Data\Game\BonusBoxes\Box1\Part8.dds
+Data\Game\BonusBoxes\Box1\Part9.dds
+Data\Game\BonusBoxes\Box2\Fly.dds
+Data\Game\BonusBoxes\Box2\Landing.dds
+Landing2
+Data\Game\BonusBoxes\Box2\Part2.dds
+Part2
+Data\Game\BonusBoxes\Box2\Part3.dds
+Data\Game\BonusBoxes\Box2\Part4.dds
+Data\Game\BonusBoxes\Box2\Part5.dds
+Data\Game\BonusBoxes\Box2\Part6.dds
+Data\Game\BonusBoxes\Box2\Part7.dds
+Data\Game\BonusBoxes\Box2\Part8.dds
+Data\Game\BonusBoxes\Box2\Part9.dds
+Data\Game\BonusBoxes\Box3\Fly.dds
+Data\Game\BonusBoxes\Box3\Landing.dds
+Landing3
+Data\Game\BonusBoxes\Box3\Part3.dds
+Part3
+Data\Game\BonusBoxes\Box3\Part2.dds
+Data\Game\BonusBoxes\Box3\Part4.dds
+Data\Game\BonusBoxes\Box3\Part5.dds
+Data\Game\BonusBoxes\Box3\Part6.dds
+Data\Game\BonusBoxes\Box3\Part7.dds
+Data\Game\BonusBoxes\Box3\Part8.dds
+Data\Game\BonusBoxes\Box3\Part9.dds
+Data\Game\BonusBoxes\Box4\Fly.dds
+Data\Game\BonusBoxes\Box4\Landing.dds
+Landing4
+Data\Game\BonusBoxes\Box4\Part4.dds
+Part4
+Data\Game\BonusBoxes\Box4\Part2.dds
+Data\Game\BonusBoxes\Box4\Part3.dds
+Data\Game\BonusBoxes\Box4\Part5.dds
+Data\Game\BonusBoxes\Box4\Part6.dds
+Data\Game\BonusBoxes\Box4\Part7.dds
+Data\Game\BonusBoxes\Box4\Part8.dds
+Data\Game\BonusBoxes\Box4\Part9.dds
+Data\Game\Effects\FireballHead.dds
+Head
+Data\Game\Effects\FireballTrail.tga
+Data\Game\Effects\FireSpark.tga
+FireSpark
+Data\Game\Effects\FireSplinterHead.dds
+Data\Game\Effects\FireSplinterTrail.tga
+Data\Game\Effects\BubbleballHead.dds
+Data\Game\Effects\BubbleballTrail.dds
+Data\Game\Effects\BubbleballSplinterBig.dds
+SplinterBig
+Data\Game\Effects\BubbleballSplinterSmall.dds
+SplinterSmall
+Data\Game\Monsters\Red\Run.dds
+Data\Game\Monsters\Red\Walk.dds
+Data\Game\Monsters\Red\Fall.dds
+Fall
+Data\Game\Monsters\Red\Jump.dds
+Data\Game\Monsters\Red\Turn.dds
+Turn
+Data\Game\Monsters\Red\Air_up.dds
+AirUp
+Data\Game\Monsters\Red\Frozen.dds
+Frozen
+Data\Game\Monsters\Red\Knock.dds
+Knock
+Data\Game\Monsters\Red\Wet.dds
+Data\Game\Monsters\Red\Dead.dds
+Dead
+Data\Game\Monsters\Red\Roll.dds
+Roll
+Data\Game\Monsters\Green\Run.dds
+Data\Game\Monsters\Green\Fall.dds
+Data\Game\Monsters\Green\Jump.dds
+Data\Game\Monsters\Green\Turn.dds
+Data\Game\Monsters\Green\Air_up.dds
+Data\Game\Monsters\Green\Frozen.dds
+Data\Game\Monsters\Green\Knock.dds
+Data\Game\Monsters\Green\Wet.dds
+Data\Game\Monsters\Green\Attack.dds
+Attack
+Data\Game\Monsters\Green\AttackDown.dds
+AttackDown
+Data\Game\Monsters\Green\Dead.dds
+Data\Game\Monsters\Dog\Run.dds
+H77HZAZZH7
+Data\Game\Monsters\Dog\Fall.dds
+OROOAU
+Data\Game\Monsters\Dog\Jump.dds
+Data\Game\Monsters\Dog\JumpDown.dds
+JumpDown
+Data\Game\Monsters\Dog\Stand.dds
+Data\Game\Monsters\Dog\Turn.dds
+Data\Game\Monsters\Dog\Air_up.dds
+Data\Game\Monsters\Dog\Frozen.dds
+Data\Game\Monsters\Dog\Knock.dds
+Data\Game\Monsters\Dog\Wet.dds
+Data\Game\Monsters\Dog\Dead.dds
+addon1\Game\Monsters\Cat\Air_Up.dds
+addon1\Game\Monsters\Cat\Attack.dds
+addon1\Game\Monsters\Cat\Dead.dds
+addon1\Game\Monsters\Cat\Fall.dds
+addon1\Game\Monsters\Cat\Frozen.dds
+addon1\Game\Monsters\Cat\Jump.dds
+addon1\Game\Monsters\Cat\JumpDown.dds
+addon1\Game\Monsters\Cat\Knock.dds
+addon1\Game\Monsters\Cat\Run.dds
+addon1\Game\Monsters\Cat\Stand.dds
+addon1\Game\Monsters\Cat\Turn.dds
+addon1\Game\Monsters\Cat\Wet.dds
+addon1\Game\Monsters\Cat\Ball.dds
+Ball
+addon1\Game\Monsters\Cat\Ball_Appear.dds
+BallAppear
+addon1\Game\Monsters\Cat\Part01.dds
+BallPart
+addon1\Game\Monsters\Cat\Part02.dds
+addon1\Game\Monsters\Cat\Part03.dds
+addon1\Game\Monsters\Cat\Part04.dds
+addon1\Game\Monsters\Cat\Part05.dds
+addon1\Game\Monsters\Cat\Part06.dds
+addon1\Game\Monsters\Cat\Part07.dds
+Data\Game\Monsters\Bird\Fly.dds
+Data\Game\Monsters\Bird\Jump.dds
+Data\Game\Monsters\Bird\Land.dds
+Land
+Data\Game\Monsters\Bird\Turn.dds
+Data\Game\Monsters\Bird\Stand.dds
+Data\Game\Monsters\Bird\Frozen.dds
+Data\Game\Monsters\Bird\Knock.dds
+Data\Game\Monsters\Bird\Wet.dds
+Data\Game\Monsters\Bird\Dead.dds
+Data\Game\Monsters\Tusk\Run.dds
+Data\Game\Monsters\Tusk\Fall.dds
+Data\Game\Monsters\Tusk\Jump.dds
+Data\Game\Monsters\Tusk\Fly.dds
+Data\Game\Monsters\Tusk\FlyJump.dds
+FlyJump
+Data\Game\Monsters\Tusk\Land.dds
+Data\Game\Monsters\Tusk\Turn.dds
+Data\Game\Monsters\Tusk\Air_up.dds
+Data\Game\Monsters\Tusk\Frozen.dds
+Data\Game\Monsters\Tusk\Knock.dds
+Data\Game\Monsters\Tusk\Wet.dds
+Data\Game\Monsters\Tusk\Dead.dds
+Data\Game\Monsters\Tornado\Run.dds
+Data\Game\Monsters\Tornado\Stand.dds
+Data\Game\Monsters\Tornado\Fall.dds
+Data\Game\Monsters\Tornado\Jump.dds
+Data\Game\Monsters\Tornado\Turn.dds
+Data\Game\Monsters\Tornado\Air_up.dds
+Data\Game\Monsters\Tornado\Frozen.dds
+Data\Game\Monsters\Tornado\Knock.dds
+Data\Game\Monsters\Tornado\Wet.dds
+Data\Game\Monsters\Tornado\Dead.dds
+Data\Game\Monsters\Tornado\Fly.dds
+Data\Game\Monsters\Tornado\StartFly.dds
+StartFly
+Data\Game\Monsters\Tornado\EndFly.dds
+EndFly
+Data\Game\Monsters\Tornado\Shot.dds
+Shot
+Data\Game\Monsters\Tornado\Bullet.dds
+Bullet
+TORNADOBULLET
+Data\Game\Monsters\Tornado\BulletHit.dds
+BulletHit
+Data\Game\Effects\TornadoBulletSpark.dds
+Spark
+Data\Game\Monsters\Bomber\Run.dds
+Data\Game\Monsters\Bomber\Fall.dds
+Data\Game\Monsters\Bomber\Jump.dds
+Data\Game\Monsters\Bomber\JumpDown.dds
+Bomber
+Data\Game\Monsters\Bomber\Turn.dds
+Data\Game\Monsters\Bomber\Air_up.dds
+Data\Game\Monsters\Bomber\Frozen.dds
+Data\Game\Monsters\Bomber\Knock.dds
+Data\Game\Monsters\Bomber\Wet.dds
+Data\Game\Monsters\Bomber\Dead.dds
+Data\Game\Monsters\Bomber\SetBomb.dds
+SetBomb
+Data\Game\Monsters\Bomber\BombDrop.dds
+BombDrop
+Data\Game\Monsters\Bomber\Bomb.dds
+Bomb
+Data\Game\Effects\BombSplinter.dds
+BombSplinter
+Data\Game\Effects\BombExplosion.dds
+BombExplosion
+Data\Game\Effects\BombSmoke.tga
+Smoke
+addon1\Game\Monsters\Ballbot\Run.dds
+addon1\Game\Monsters\Ballbot\Walk.dds
+addon1\Game\Monsters\Ballbot\Fall.dds
+addon1\Game\Monsters\Ballbot\Jump.dds
+addon1\Game\Monsters\Ballbot\Wet.dds
+addon1\Game\Monsters\Ballbot\Turn.dds
+addon1\Game\Monsters\Ballbot\Air_Up.dds
+addon1\Game\Monsters\Ballbot\Frozen.dds
+addon1\Game\Monsters\Ballbot\Knock.dds
+addon1\Game\Monsters\Ballbot\Dead.dds
+addon1\Game\Monsters\Ballbot\Fly_Prep.dds
+FlyPrep
+addon1\Game\Monsters\Ballbot\Fly_Land.dds
+FlyLand
+Data\Game\Effects\bombspark.dds
+Data\Game\Monsters\BossMonster\Run.dds
+Data\Game\Monsters\BossMonster\Fall.dds
+Data\Game\Monsters\BossMonster\Jump.dds
+Data\Game\Monsters\BossMonster\Turn.dds
+Data\Game\Monsters\BossMonster\Air_up.dds
+Data\Game\Monsters\BossMonster\Frozen.dds
+Data\Game\Monsters\BossMonster\Knock.dds
+Data\Game\Monsters\BossMonster\Wet.dds
+Data\Game\Monsters\BossMonster\Dead.dds
+Data\Game\Monsters\BossMonster\Fly.dds
+Data\Game\Monsters\BossMonster\Prep.dds
+Prep
+Data\Game\Monsters\BossMonster\PrepExpl.dds
+PrepExpl
+Data\Game\Effects\BombSpark.dds
+addon1\Game\Monsters\BossMonster\Egg.dds
+Data\Game\Monsters\BossMonster\Bomb.dds
+Data\Game\Monsters\Boss_Bag\Open.dds
+Open
+Data\Game\Monsters\Boss_Bag\Stand.dds
+Data\Game\Monsters\Boss_Bag\Jump.dds
+Data\Game\Monsters\Boss_Bag\Air_Up.dds
+Data\Game\Monsters\Boss_Bag\Fall.dds
+Data\Game\Monsters\Boss_Bag\Dead.dds
+Data\Game\Effects\BagSmoke.tga
+Data\Game\Monsters\Boss_Bag\Part01.dds
+Data\Game\Monsters\Boss_Bag\Part02.dds
+Data\Game\Monsters\Boss_Bag\Part03.dds
+Data\Game\Monsters\Boss_Bag\Part04.dds
+Data\Game\Monsters\Boss_Bag\Part05.dds
+Data\Game\Monsters\Boss_Bag\Part06.dds
+Data\Game\Monsters\Boss_Bag\Part07.dds
+Data\Game\Monsters\Boss_Bag\Part08.dds
+Data\Game\Monsters\Boss_Bag\Part09.dds
+Data\Game\Monsters\Boss_Bag\Part10.dds
+Data\Game\Monsters\Boss_Bag\Part11.dds
+Data\Game\Monsters\Boss_Bag\Part12.dds
+Data\Game\Monsters\Boss_Bag\Part13.dds
+Data\Game\Monsters\Boss_Bag\Part14.dds
+Data\Game\Monsters\Boss_Bag\Part15.dds
+Data\Game\Monsters\Boss_Bag\Part16.dds
+Data\Game\Monsters\Boss_Teapot\Eyes.dds
+Eyes
+Data\Game\Monsters\Boss_Teapot\Handle.dds
+Handle
+Data\Game\Monsters\Boss_Teapot\LidClose.dds
+LidClose
+Data\Game\Monsters\Boss_Teapot\LidOpen.dds
+LidOpen
+Data\Game\Monsters\Boss_Teapot\LidKnock.dds
+LidKnock
+Data\Game\Monsters\Boss_Teapot\Nose.dds
+Nose
+Data\Game\Monsters\Boss_Teapot\StandNH.dds
+StandNH
+Data\Game\Monsters\Boss_Teapot\StandN.dds
+StandN
+Data\Game\Monsters\Boss_Teapot\Stand.dds
+Data\Game\Monsters\Boss_Teapot\TurnNH.dds
+TurnNH
+Data\Game\Monsters\Boss_Teapot\TurnN.dds
+TurnN
+Data\Game\Effects\TeapotSmokeBig.tga
+SmokeBig
+Data\Game\Monsters\Boss_Teapot\Dead.dds
+Data\Game\Monsters\Boss_Teapot\Part01.dds
+Data\Game\Monsters\Boss_Teapot\Part02.dds
+Data\Game\Monsters\Boss_Teapot\Part03.dds
+Data\Game\Monsters\Boss_Teapot\Part04.dds
+Data\Game\Monsters\Boss_Teapot\Part05.dds
+Data\Game\Monsters\Boss_Teapot\Part06.dds
+Data\Game\Monsters\Boss_Teapot\Part07.dds
+Data\Game\Monsters\Boss_Teapot\Part08.dds
+Data\Game\Monsters\Boss_Teapot\Part09.dds
+Data\Game\Monsters\Boss_Teapot\Part10.dds
+Data\Game\Monsters\Boss_Teapot\Part11.dds
+Data\Game\Monsters\Boss_Teapot\Part12.dds
+Data\Game\Monsters\Boss_Teapot\Part13.dds
+Data\Game\Monsters\Boss_Teapot\Part14.dds
+Data\Game\Monsters\Boss_Teapot\Part15.dds
+Data\Game\Monsters\Boss_Teapot\Part16.dds
+Data\Game\Monsters\Boss_Balloon\BalloonStand.dds
+BalloonStand
+Data\Game\Monsters\Boss_Balloon\BalloonAttack.dds
+BalloonAttack
+Data\Game\Monsters\Boss_Balloon\BasketStand.dds
+BasketStand
+Data\Game\Monsters\Boss_Balloon\BasketOpen.dds
+BasketOpen
+Data\Game\Monsters\Boss_Balloon\BasketClose.dds
+BasketClose
+Data\Game\Monsters\Boss_Balloon\BalloonDead.dds
+BalloonDead
+Data\Game\Monsters\Boss_Balloon\PartBalloon01.dds
+PartBalloon
+Data\Game\Monsters\Boss_Balloon\PartBalloon02.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon03.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon04.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon05.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon06.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon07.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon08.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon09.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon10.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon11.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon12.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon13.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon14.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon15.dds
+Data\Game\Monsters\Boss_Balloon\PartBalloon16.dds
+Data\Game\Monsters\Boss_Balloon\BasketDead.dds
+BasketDead
+Data\Game\Monsters\Boss_Balloon\PartBasket01.dds
+PartBasket
+Data\Game\Monsters\Boss_Balloon\PartBasket02.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket03.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket04.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket05.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket06.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket07.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket08.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket09.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket10.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket11.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket12.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket13.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket14.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket15.dds
+Data\Game\Monsters\Boss_Balloon\PartBasket16.dds
+Data\Game\Monsters\Boss_Mask\Turn.dds
+Data\Game\Monsters\Boss_Mask\Turn_l.dds
+TurnLeft
+Data\Game\Monsters\Boss_Mask\Turn_r.dds
+TurnRight
+Data\Game\Monsters\Boss_Mask\Eye.dds
+Data\Game\Monsters\Boss_Mask\Ball.dds
+Data\Game\Monsters\Boss_Mask\DeadUp.dds
+DeadUp
+Data\Game\Monsters\Boss_Mask\DeadDown_l.dds
+DeadDownLeft
+Data\Game\Monsters\Boss_Mask\DeadDown_r.dds
+DeadDownRight
+Data\Game\Monsters\Boss_Mask\Part01.dds
+meDefinitionFile>
+P(
+Data\Game\Monsters\Boss_Mask\Part02.dds
+Data\Game\Monsters\Boss_Mask\Part03.dds
+Data\Game\Monsters\Boss_Mask\Part04.dds
+Data\Game\Monsters\Boss_Mask\Part05.dds
+Data\Game\Monsters\Boss_Mask\Part06.dds
+Data\Game\Monsters\Boss_Mask\Part07.dds
+Data\Game\Monsters\Boss_Mask\Part08.dds
+Data\Game\Monsters\Boss_Mask\Part09.dds
+Data\Game\Monsters\Boss_Mask\Part10.dds
+Data\Game\Monsters\Boss_Mask\Part11.dds
+Data\Game\Monsters\Boss_Mask\Part12.dds
+Data\Game\Monsters\Boss_Mask\Part13.dds
+Data\Game\Monsters\Boss_Mask\Part14.dds
+Data\Game\Monsters\Boss_Mask\Part15.dds
+Data\Game\Monsters\Boss_Mask\Part16.dds
+\Part1.dds
+addon1\Game\Monsters\Boss_Hen\Stand.dds
+HenStand
+addon1\Game\Monsters\Boss_Hen\Dead.dds
+HenDead
+addon1\Game\Monsters\Boss_Hen\Fly.dds
+HenFly
+addon1\Game\Monsters\BossMonster\Egg_Part01.dds
+addon1\Game\Monsters\BossMonster\Egg_Part02.dds
+addon1\Game\Monsters\Boss_Hen\Part01.dds
+PartHen
+addon1\Game\Monsters\Boss_Hen\Part02.dds
+addon1\Game\Monsters\Boss_Hen\Part03.dds
+addon1\Game\Monsters\Boss_Hen\Part04.dds
+addon1\Game\Monsters\Boss_Hen\Part05.dds
+addon1\Game\Monsters\Boss_Hen\Part06.dds
+addon1\Game\Monsters\Boss_Hen\Part07.dds
+addon1\Game\Monsters\Boss_Hen\Part08.dds
+addon1\Game\Monsters\Boss_Hen\Part09.dds
+addon1\Game\Monsters\Boss_Hen\Part10.dds
+addon1\Game\Monsters\Boss_Hen\Part11.dds
+addon1\Game\Monsters\Boss_Hen\Part12.dds
+addon1\Game\Monsters\Boss_Hen\Part13.dds
+addon1\Game\Monsters\Boss_Hen\Part14.dds
+addon1\Game\Monsters\Boss_Hen\Part15.dds
+addon1\Game\Monsters\Boss_Hen\Part16.dds
+: %d components
+ Scan: %d components
+Data\Config\WebLinks.ini
+BuyNowBoss
+WEBLINKS
+BuyNowBossParam
+open
+BuyNowShutDown
+Data\Menu\Cursor.dds
+Data\Game\Interface\StatusPanel1.dds
+Data\Game\Interface\StatusPanel2.dds
+Data\Game\Interface\StatusPanel3.dds
+Data\Game\Interface\StatusPanel4.dds
+addon1\Game\Interface\StatusPanel5.dds
+Data\Game\Interface\Score.ufpt
+Data\Game\Interface\ScoreFont.dds
+Data\Game\Interface\Small.ufpt
+Data\Game\Interface\SmallFont.dds
+Data\Menu\Highscorefont.ufpt
+Data\Menu\Highscorefont.dds
+Data\Game\Interface\BossLife.dds
+Data\Game\Interface\BossLife0.dds
+Data\Game\Interface\BossLife1.dds
+Data\Game\Interface\DemoMovie.dds
+Data\Game\Interface\Yes.dds
+Data\Game\Interface\No.dds
+Data\Game\Interface\Panel_Esc.tga
+Data\Game\Interface\Ok.dds
+Data\Game\Interface\Panel_Hint.dds
+Data\Game\Interface\Custom\BuyNow.dds
+Data\Game\Interface\Custom\Later.dds
+Data\Game\Interface\Custom\Panel_Buy.dds
+Data\Game\Interface\Panel_LC.dds
+Data\Game\Interface\Panel_PC.dds
+Data\Game\Interface\Panel_GO.dds
+p.x: %d
+p.y: %d
+mouse_column: %d
+mouse_row: %d
+Level[mouse]: %d
+BlockType[mouse]: %d
+Data\Game\Worlds\1\BackGround\BackGround1.dds
+Data\Game\Worlds\1\BackGround\BackGround2.dds
+Data\Game\Worlds\1\Blocks\Block.tga
+Data\Game\Worlds\1\Blocks\DiagBlock_rl_up.tga
+Data\Game\Worlds\1\Blocks\DiagBlock_lr_up.tga
+Data\Game\Worlds\1\Blocks\DiagBlock_rl_down.tga
+Data\Game\Worlds\1\Blocks\DiagBlock_lr_down.tga
+Data\Game\Worlds\1\BackGround\Bubble.dds
+Data\Config\Level.ini
+Bubble1
+Data\Game\Worlds\2\BackGround\BackGround1.dds
+Data\Game\Worlds\2\BackGround\BackGround2.dds
+Data\Game\Worlds\2\Blocks\Block.tga
+Data\Game\Worlds\2\Blocks\DiagBlock_rl_up.tga
+Data\Game\Worlds\2\Blocks\DiagBlock_lr_up.tga
+Data\Game\Worlds\2\Blocks\DiagBlock_rl_down.tga
+Data\Game\Worlds\2\Blocks\DiagBlock_lr_down.tga
+Data\Game\Worlds\2\BackGround\Bubble.dds
+Bubble2
+Data\Game\Worlds\3\BackGround\BackGround1.dds
+Data\Game\Worlds\3\BackGround\BackGround2.dds
+Data\Game\Worlds\3\Blocks\Block.tga
+Data\Game\Worlds\3\Blocks\DiagBlock_rl_up.tga
+Data\Game\Worlds\3\Blocks\DiagBlock_lr_up.tga
+Data\Game\Worlds\3\Blocks\DiagBlock_rl_down.tga
+Data\Game\Worlds\3\Blocks\DiagBlock_lr_down.tga
+Data\Game\Worlds\3\BackGround\Bubble.dds
+Bubble3
+Data\Game\Worlds\4\BackGround\BackGround1.dds
+Data\Game\Worlds\4\BackGround\BackGround2.dds
+Data\Game\Worlds\4\Blocks\Block.tga
+Data\Game\Worlds\4\Blocks\DiagBlock_rl_up.tga
+Data\Game\Worlds\4\Blocks\DiagBlock_lr_up.tga
+Data\Game\Worlds\4\Blocks\DiagBlock_rl_down.tga
+Data\Game\Worlds\4\Blocks\DiagBlock_lr_down.tga
+Data\Game\Worlds\4\BackGround\Bubble.dds
+Bubble4
+addon1\Game\Worlds\5\BackGround\BackGround1.dds
+addon1\Game\Worlds\5\BackGround\BackGround2.dds
+addon1\Game\Worlds\5\Blocks\Block.tga
+addon1\Game\Worlds\5\Blocks\DiagBlock_rl_up.tga
+addon1\Game\Worlds\5\Blocks\DiagBlock_lr_up.tga
+addon1\Game\Worlds\5\Blocks\DiagBlock_rl_down.tga
+addon1\Game\Worlds\5\Blocks\DiagBlock_lr_down.tga
+addon1\Game\Worlds\5\BackGround\Bubble.dds
+Bubble5
+LEVEL
+posx: %f
+posy: %f
+ToDown: %f
+ToUp: %f
+OnGround: %d
+OnWallRight: %d
+OnWallLeft: %d
+GroundType: %d
+1, 6, 0, 0
+Snowy: The Bear's Adventures
+Data\Config\MenuSurfaces.ini
+Ypos
+Name
+Xpos
+Data\Menu\progress.dds
+Data\Menu\loadingdemo.dds
+Data\Menu\loading01.dds
+Data\Menu\loading02.dds
+Data\Menu\loading03.dds
+Data\Menu\loading04.dds
+addon1\Menu\loading05.dds
+Data\Menu\Loadingmenu.dds
+Data\Sounds\Game\Hero_Throw.ogg
+Data\Sounds\Game\Hero_Jump.ogg
+Adventures
+Data\Sounds\Game\Hero_Fly.ogg
+Data\Sounds\Game\BigSnowball_Collide1.ogg
+Data\Sounds\Game\BigSnowball_Explode.ogg
+Data\Sounds\Game\GetScoreBonus4.ogg
+Data\Sounds\Game\GetRangeUpBonus.ogg
+Data\Sounds\Game\BonusBox_Explode.ogg
+addon1\Sounds\Game\CatBall_Explode.ogg
+Data\Sounds\Game\BomberBomb_Explode.ogg
+Data\Sounds\Game\Boss_Freeze.ogg
+Data\Sounds\Game\Boss_Fire.ogg
+ernalName
+gFileInfo
+ileVersion
+ventures
+CONFIG
+PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+sworlds Entertainment
+Aliasworlds Entertainment
+INGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+Snowy: The Bear's Adventures
+
+====================================================
+
+Config.ini
+LoadingLog
+Data\Music\MenuMusic.ogg
+ShowFPS
+DemoMode
+pyright
+ONCEAGAIN
+NEXTLEVELPLEASE
+GIVEMETHELASTLEVEL
+Data\Sounds\Game\Hero_Kick.ogg
+Data\Sounds\Game\Hero_Death.ogg
+Data\Sounds\Game\Hero_Appear.ogg
+Data\Sounds\Game\Hero_FlyOff.ogg
+Data\Sounds\Game\Hero_Happy.ogg
+Data\Sounds\Game\BigSnowball_Collide_M.ogg
+Data\Sounds\Game\BigSnowball_Collide2.ogg
+Data\Sounds\Game\BigSnowball_Collide3.ogg
+Data\Sounds\Game\BigSnowball_Collide4.ogg
+Data\Sounds\Game\GetScoreBonus1.ogg
+Data\Sounds\Game\GetScoreBonus2.ogg
+Data\Sounds\Game\GetScoreBonus3.ogg
+Data\Sounds\Game\GetLifeBonus.ogg
+Data\Sounds\Game\GetPowerUpBonus.ogg
+Data\Sounds\Game\GetSpeedUpBonus.ogg
+Data\Sounds\Game\GetHelicopterBonus.ogg
+Data\Sounds\Game\BonusBox_Fall.ogg
+Data\Sounds\Game\BonusBox_Landing.ogg
+Data\Sounds\Game\BonusBag_Explode.ogg
+Data\Sounds\Game\BonusPack_Explode.ogg
+Data\Sounds\Game\Green_Fire.ogg
+addon1\Sounds\Game\CatBall_Knock.ogg
+Data\Sounds\Game\Tornado_Fire.ogg
+Data\Sounds\Game\TornadoBullet_Explode.ogg
+Data\Sounds\Game\Tusk_Collide.ogg
+addon1\Sounds\Game\BallBot_Collide.ogg
+Data\Sounds\Game\BossLevelStart.ogg
+Data\Sounds\Game\Boss_Explode.ogg
+Data\Sounds\Game\BossLevelCompleted.ogg
+Data\Sounds\Game\Bomb_Explode.ogg
+Data\Sounds\Game\Boss_Hit.ogg
+Data\Sounds\Game\Boss_Jump.ogg
+Data\Sounds\Game\Boss_Landing.ogg
+Data\Sounds\Game\Boss_Bubbleball.ogg
+Data\Sounds\Game\BossBag_JumpFire.ogg
+Data\Sounds\Game\BossTeapot_LidOpen.ogg
+Data\Sounds\Game\BossTeapot_LidClose.ogg
+Data\Sounds\Game\BossBalloon_BasketOpen.ogg
+Data\Sounds\Game\BossBalloon_BasketClose.ogg
+Data\Sounds\Game\BossMask_Collide.ogg
+Data\Sounds\Game\Clock_Appear.ogg
+Data\Sounds\Game\Clock_Wait.ogg
+Data\Sounds\Game\Clock_Boom.ogg
+Data\Sounds\Game\Hints_Appear.ogg
+Data\Sounds\Game\Hints_Explode.ogg
+Data\Sounds\Game\Fireball_Explode.ogg
+Data\Sounds\Game\Bubbleball_Explode.ogg
+Data\Sounds\Game\Frozen_Explode.ogg
+Data\Sounds\Game\Snowball_Explode.ogg
+Data\Sounds\Game\GreatKick.ogg
+Data\Sounds\Game\LevelCompleted.ogg
+Data\Sounds\Game\GameOver.ogg
+Data\Sounds\Game\Esc.ogg
+Data\Sounds\Game\Cheat.ogg
+Data\Sounds\Menu\ActivateButton.ogg
+Data\Sounds\Menu\ClickButton.ogg
+Data\Sounds\Menu\ClickArrow.ogg
+Data\Sounds\Menu\SwitchScreen1.ogg
+Data\Sounds\Menu\SwitchScreen2.ogg
+Data\Sounds\Menu\SwitchScreen3.ogg
+Data\Sounds\Menu\Error.ogg
+Depth
+VSync
+SnowyTBA.log
+====================================================
+
+FullScreen
+Music & Sounds Loading   OK
+
+
+Vsync
+DebugCheats
+Data\Menu\Custom\Name.dds
+CodePage
+Localization
+InitApp   FAILED
+RunDelay: %f
+JumpUpCount: %d
+SetBombDelay: %f
+BombsNum: %d
+JumpCount: %f
+JumpDelay: %f
+RunCount: %f
+StandDelay: %f
+ShotCount: %f
+ShotDelay: %f
+_NumFrames
+ can't load from - 
+_FramesInLine
+_Frame
+_FrameWidth
+_FrameHeight
+_AnimSpeed
+bad cast
+data\data.arf
+data\customdata.arf
+data\addon1.arf
+data\addon2.arf
+data\addon3.arf
+data\addon4.arf
+data\addon5.arf
+Can't load - 
+ Loaded   OK
+
+Verdana
+
+-----------------------------------------------
+
+Cleanup
+
+-----------------------------------------------
+
+pSystemFont -> Release
+
+pSpriteVB -> Release
+
+pViewportVB -> Release
+
+pd3dDevice -> Release
+
+pD3D -> Release
+
+InitD3D
+
+D3D8.DLL
+InitD3D -> ERROR_NODIRECTX8
+
+ERROR_NODIRECTX8
+Game requires DirectX 8 or better installed.
+Please, update DirectX version from:
+http://www.microsoft.com/directx/homeuser/downloads/
+DirectX 8 or better installed
+
+
+d3d8.dll
+Direct3DCreate8
+InitD3D -> ERROR_NODIRECT3D
+
+ERROR_NODIRECT3D
+InitD3D -> Direct3DCreate8   OK
+
+InitD3D -> Windowed = TRUE
+
+InitD3D -> BackBufferFormat =  %d
+
+InitD3D -> Windowed = FALSE
+
+InitD3D -> Screen Width = %d
+
+InitD3D -> Screen Height = %d
+
+InitD3D -> Depth = %d
+
+InitD3D -> VSync = %d
+
+InitD3D -> BackBufferFormat =  %d
+
+
+InitD3D -> ERROR_NOD3DDEVICE
+
+ERROR_NOD3DDEVICE
+InitD3D -> pD3D-> CreateDevice   OK
+
+
+Device capabilities:
+
+MaxTextureSize: %d x %d
+
+MaxTextureAspectRatio: %d
+
+
+InitD3D -> InitScene   OK
+
+InitD3D -> ERROR_CANTCREATEVB
+
+ERROR_CANTCREATEVB
+InitD3D -> CreateVB   OK
+
+InitD3D -> CreateSystemFont   OK
+
+
+ReInitD3D
+
+ReInitD3D -> ERROR_NODIRECT3D
+
+
+ReInitD3D -> Direct3DCreate8   OK
+
+ReInitD3D -> Windowed = TRUE
+
+ReInitD3D -> BackBufferFormat =  %d
+
+ReInitD3D -> Windowed = FALSE
+
+ReInitD3D -> Screen Width = %d
+
+ReInitD3D -> Screen Height = %d
+
+ReInitD3D -> Depth = %d
+
+ReInitD3D -> VSync = %d
+
+ReInitD3D -> BackBufferFormat =  %d
+
+
+ReInitD3D -> ERROR_NOD3DDEVICE
+
+ReInitD3D -> pD3D-> CreateDevice   OK
+
+
+ReInitD3D -> InitScene   OK
+
+ReInitD3D -> ERROR_CANTCREATEVB
+
+ReInitD3D -> CreateVB   OK
+
+ReInitD3D -> CreateSystemFont   OK
+
+
+data\config\unistring.ini
+DIK_NONE
+DIK_2
+DIK_4
+DIK_6
+DIK_8
+DIK_0
+DIK_F2
+DIK_F4
+DIK_F6
+DIK_F8
+DIK_F10
+DIK_F12
+DIK_F14
+DIK_Q
+DIK_E
+DIK_T
+DIK_U
+DIK_O
+DIK_A
+DIK_D
+DIK_G
+DIK_J
+DIK_L
+DIK_X
+DIK_V
+DIK_N
+DIK_LBRACKET
+DIK_SEMICOLON
+DIK_GRAVE
+DIK_COMMA
+DIK_SLASH
+DIK_EQUALS
+DIK_RETURN
+DIK_TAB
+DIK_MULTIPLY
+DIK_NUMPAD7
+DIK_NUMPAD9
+DIK_NUMPAD4
+DIK_NUMPAD6
+DIK_NUMPAD1
+DIK_NUMPAD3
+DIK_DECIMAL
+DIK_DIVIDE
+DIK_RSHIFT
+DIK_RCONTROL
+DIK_RMENU
+DIK_DOWN
+DIK_RIGHT
+DIK_NEXT
+DIK_END
+DIK_DELETE
+KeyName
+DIK_1
+DIK_3
+DIK_5
+DIK_7
+DIK_9
+DIK_F1
+DIK_F3
+DIK_F5
+DIK_F7
+DIK_F9
+DIK_F11
+DIK_F13
+DIK_F15
+DIK_W
+DIK_R
+DIK_Y
+DIK_I
+DIK_P
+DIK_S
+DIK_F
+DIK_H
+DIK_K
+DIK_Z
+DIK_C
+DIK_B
+DIK_M
+DIK_RBRACKET
+DIK_APOSTROPHE
+DIK_BACKSLASH
+DIK_PERIOD
+DIK_MINUS
+DIK_SPACE
+DIK_BACK
+DIK_CAPITAL
+DIK_NUMLOCK
+DIK_NUMPAD8
+DIK_SUBTRACT
+DIK_NUMPAD5
+DIK_ADD
+DIK_NUMPAD2
+DIK_NUMPAD0
+DIK_NUMPADENTER
+DIK_LSHIFT
+DIK_LCONTROL
+DIK_LMENU
+DIK_UP
+DIK_LEFT
+DIK_PRIOR
+DIK_HOME
+DIK_INSERT
+DIK_JOYBUTTON
+000000000000000000000000000000
+%X, %d/%m/%Y
+Started: %s
+
+
+
+Finished: %s
+
+Content-Type: application/x-www-form-urlencoded
+Accept-Language:ru
+Accept-Encoding:gzip, deflate
+data\config\logo.ini
+centered
+COMMON
+LogoSpeedAppear
+LogoSpeedDisappear
+Logo_
+data/
+path
+position_X
+position_Y
+sleep_sec
+screen
+vector<bool> too long
+%02x 
+%02d 
+www.alawar.com
+Data\hs.html
+name1
+score1
+scoredata
+Highscore.html
+Data\Music\menumusic.ogg
+00000409
+Language
+Controls
+BuyNowMenu
+BuyNowMenuParam
+ScoreBoard
+SnowyOnLine
+BuyNowNag
+BuyNowNagParam
+Data\Config\MenuButtons.ini
+NagExit
+CBMoveUp
+CBMoveDown
+CBMoveLeft
+CBMoveRight
+CBJump
+CBSnowball
+Data\Menu\highscorefont_button.ufpt
+Data\Menu\highscorefont.dds
+Data\Menu\key.dds
+Data\Menu\press_a_key.dds
+Data\Menu\press_a_button.dds
+Data\Menu\cursor.dds
+50.0
+CursorSpeed
+SpeedApear
+SpeedApDis
+SpeedDisapear
+Data\Menu\BackGround1.dds
+Data\Menu\Custom\BackGround222.dds
+Data\Menu\screen.dds
+Screen
+addon1\menu\logo.dds
+Logo
+Data\Menu\logo.dds
+Data\Menu\really.dds
+Really
+Data\Menu\helppage0.dds
+Help1
+Data\Menu\helppage1.dds
+Help2
+Data\Menu\helppage2.dds
+Help3
+Data\Menu\helppage3.dds
+Help4
+Data\Menu\helppage4.dds
+Help5
+Data\Menu\Custom\helppage5.dds
+Help6
+addon1\Menu\preview5.dds
+Preview5
+addon1\Menu\preview6.dds
+Preview6
+Data\Menu\preview1.dds
+Preview1
+Data\Menu\preview2.dds
+Preview2
+Data\Menu\preview3.dds
+Preview3
+Data\Menu\preview4.dds
+Preview4
+Data\Menu\previewwarmup.dds
+PreviewDemo
+Data\Menu\previewdemo.dds
+Data\Menu\optionspage.dds
+Options
+Data\Menu\volume.dds
+OptionsVolume1
+OptionsVolume2
+Data\Menu\video_settings.dds
+VideoSettings
+Data\Menu\16bits.dds
+Video16
+Data\Menu\32bits.dds
+Data\Menu\vsync_on.dds
+VideoVsyncOn
+Data\Menu\vsync_off.dds
+Data\Menu\player.dds
+Player
+PlayerChange
+Data\Menu\player_window.dds
+PlayerWindow
+Data\Menu\player_selected.dds
+Data\Menu\scrollbar.dds
+Data\Menu\slider.dds
+Data\Menu\del_player_screen.dds
+DeletePlayer
+Data\Menu\new_player_screen.dds
+NewPlayer
+Data\Menu\alreadyexist.dds
+AlreadyExist
+Data\Menu\na.dds
+NotAvailable
+Data\Menu\level_1-10.dds
+CurrentLevel
+Data\Menu\level_11-20.dds
+Data\Menu\level_21-30.dds
+Data\Menu\level_boss.dds
+Data\Menu\controls.dds
+ControlsName
+Data\Menu\controlspage.dds
+ControlsPage
+Data\Menu\controlspage_joystick.dds
+ControlsPageJoystick
+Data\Menu\easy.dds
+SelGame
+Data\Menu\normal.dds
+Data\Menu\hard.dds
+SelEasyGame
+SelNormalGame
+SelHardGame
+Data\Menu\Custom\demo_version.dds
+DemoVersion
+Data\Menu\na_in_demo.dds
+NotAvailableInDemo
+Data\Menu\na_hard.dds
+NotAvailableInDemoHard
+NagLink
+Data\Menu\Custom\nagscreenpage.dds
+NagScreen
+Data\Menu\Custom\nagscreenpage1.dds
+Data\Menu\Custom\www.dds
+NagWWW
+wwwRectLeft
+wwwRectTop
+wwwRectRight
+wwwRectBottom
+Data\Menu\Custom\moneyback.dds
+MoneyBack
+NumScrShot
+ScreenShot
+WaitNextShot
+Data\Menu\shot_.dds
+BestPlayersPos
+BestScoresPos
+Data\Menu\regulator.dds
+MinX
+Regulator
+MaxX
+rLeft
+rRight
+rTop
+rBottom
+YposSound
+XposSound
+YposMusic
+XposMusic
+SpeedUp
+MainPlay
+SpeedPress
+DisAnim
+PixelsPress
+PixelsUp
+Data\Menu\hover_play.dds
+Data\Menu\menuplay.dds
+Data\Menu\play.dds
+ButtonHeight
+ButtonWidth
+ButtonYpos
+ButtonXpos
+MainHighscore
+Data\Menu\hover_highscore.dds
+Data\Menu\menuscore.dds
+Data\Menu\highscore.dds
+MainOptions
+Data\Menu\hover_options.dds
+Data\Menu\menuoptions.dds
+Data\Menu\options.dds
+MainHelp
+Data\Menu\hover_help.dds
+Data\Menu\menuhelp.dds
+Data\Menu\help.dds
+MainExit
+Data\Menu\hover_exit.dds
+Data\Menu\menuexit.dds
+Data\Menu\exit.dds
+MainRegister
+Data\Menu\Custom\register.dds
+MainMovie
+Data\Menu\movie.dds
+ExitYes
+Data\Menu\yes.dds
+ExitNo
+Data\Menu\no.dds
+OptionOk
+Data\Menu\ok.dds
+OptionCancel
+Data\Menu\cancel.dds
+AdvancedOptions
+Data\Menu\controls_setup.dds
+AdvancedOptionOk
+ChangeDepth1
+Data\Menu\previous.dds
+ChangeDepth2
+Data\Menu\next.dds
+AdvancedOptionCancel
+ResetToDefault
+Data\Menu\default.dds
+HighscoreOk
+PrevGame
+Data\Menu\m_previous.dds
+NextGame
+Data\Menu\m_next.dds
+Data\Menu\online_scoreboard.dds
+SendScore
+Data\Menu\send_score_online_dis.dds
+Data\Menu\send_score_online.dds
+HelpOk
+HelpPrevious
+HelpNext
+PlayStart
+Data\Menu\start_dis.dds
+Data\Menu\start.dds
+PlayCancel
+LevelPrevious
+LevelNext
+LevelChange
+Data\Menu\change_player.dds
+Level1_10
+Data\Menu\level_button_act_1-10.dds
+Data\Menu\level_button_dis_1-10.dds
+Data\Menu\level_button_1-10.dds
+Level11_20
+Data\Menu\level_button_act_11-20.dds
+Data\Menu\level_button_dis_11-20.dds
+Data\Menu\level_button_11-20.dds
+Level21_30
+Data\Menu\level_button_act_21-30.dds
+Data\Menu\level_button_dis_21-30.dds
+Data\Menu\level_button_21-30.dds
+LevelBoss
+Data\Menu\level_button_act_boss.dds
+Data\Menu\level_button_dis_boss.dds
+Data\Menu\level_button_boss.dds
+Level1_7
+LevelDemoBoss
+ChangeNew
+Data\Menu\new_player.dds
+ChangeDelete
+Data\Menu\del_player_dis.dds
+Data\Menu\del_player.dds
+ChangeOk
+DeleteYes
+DeleteNo
+NewPlayerOk
+AlreadyOk
+ScrollDown
+Data\Menu\scrolldown.dds
+ScrollUp
+Data\Menu\scrollup.dds
+EasyGame
+Data\Menu\easygame_h.dds
+Data\Menu\easygame.dds
+NormalGame
+Data\Menu\normalgame_h.dds
+Data\Menu\normalgame.dds
+HardGame
+Data\Menu\hardgame_h.dds
+Data\Menu\hardgame.dds
+Data\Menu\Custom\hover_nagexit.dds
+Data\Menu\Custom\menunagexit.dds
+Data\Menu\Custom\nagexit.dds
+BuyNow
+ofsetx0
+MainOffSet
+ofsety0
+ofsetx1
+ofsety1
+ofsetx2
+ofsety2
+ofsetx3
+ofsety3
+HighscoreOffSet
+OptionsOffSet
+HelpOffSet
+ExitOffset
+LevelOffSet
+ChangeNameOffSet
+NagOffSet
+AditionalOffSet
+SelectDifOffSet
+Data\Menu\highscorefont.ufpt
+Bonus_Life
+Bonus_Power
+Bonus_Range
+Bonus_Speed
+Bonus_God
+Bonus_Score1
+Bonus_Score2
+Bonus_Score3
+Bonus_Score4
+Bonus_Score5
+Bonus_Score6
+Bonus_Great
+Bonus_Nice
+Bonus_Good
+Monster_Red
+Monster_Green
+Monster_Dog
+Monster_Bird
+Monster_Tusk
+Monster_Tornado
+Monster_Bomber
+Monster_Boss
+Monster_Ghost
+data.ssp
+Data\Config\unistring.ini
+noname
+Noname
+NAME
+anonymous
+Anonymous
+\Aliasworlds\Snowy\
+.\Data\Config\Config.ini
+.\Data\Config\Controls.ini
+DefaultVolume
+Packs
+ForDemo.spk
+Easy
+*.spk
+Packs\Easy\
+Normal
+Packs\Normal\
+Hard
+Packs\Hard\
+DemoPack.spk
+Data
+Music
+Data\Music\gameplay1.ogg
+*.ogg
+menumusic.ogg
+MenuMusic.ogg
+bossmusic.ogg
+BossMusic.ogg
+gameplay1.ogg
+Data\Music\
+invalid block type
+invalid bit length repeat
+read error
+e.tga
+0123456789ABCDEF1.0.5
+Unknown zlib error
+Extra compressed data
+og\Run.dds
+\moneyback.dds
+.dds
+er_nagexit.dds
+ds\5\Blocks\DiagBlock_rl_up.tga
+ame\Monsters\Boss_Hen\Part09.dds
+\Egg_Part01.dds
+IHDR
+IDAT
+sRGB
+Invalid attempt to read row data
+Decompression error
+nusBoxes\Box3\Part9.dds
+own sRGB intent
+Width too large for libpng to process image data.
+Width too large to process image data; rowbytes will overflow.
+same structure.  Resetting write_data_fn to NULL.
+CRC error
+Invalid image size in IHDR
+Unknown filter method in IHDR
+No image in file
+Missing IHDR before gAMA
+Invalid gAMA after IDAT
+Incorrect sRGB chunk length
+Invalid sRGB after IDAT
+Unknown sRGB intent
+Invalid tRNS after IDAT
+Duplicate tRNS chunk
+Incorrect tRNS chunk length
+unknown critical chunk
+Decompression Error
+Extra compression data
+zlib version error
+PNG file corrupted by ASCII conversion
+IEND
+gAMA
+1.0.5
+Bogus message code %d
+Sorry, there are legal restrictions on arithmetic coding
+ALIGN_TYPE is wrong, please fix
+MAX_ALLOC_CHUNK is wrong, please fix
+Bogus buffer control mode
+Invalid component ID %d in SOS
+IDCT output block size %d not supported
+Bogus input colorspace
+Bogus JPEG colorspace
+Bogus marker length
+Wrong JPEG library version: library is %d, caller expects %d
+Sampling factors too large for interleaved scan
+Invalid memory pool code %d
+Unsupported JPEG data precision %d
+Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+Invalid progressive parameters at scan script entry %d
+Bogus sampling factors
+Invalid scan script at entry %d
+Improper call to JPEG library in state %d
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+Bogus virtual array access
+Buffer passed to JPEG library is too small
+Suspension not allowed here
+CCIR601 sampling not implemented yet
+Too many color components: %d, max %d
+Unsupported color conversion request
+Bogus DAC index %d
+Bogus DAC value 0x%x
+Bogus DHT counts
+Bogus DHT index %d
+Bogus DQT index %d
+Empty JPEG image (DNL not supported)
+Read from EMS failed
+Write to EMS failed
+Didn't expect more than one scan
+Input file read error
+Output file write error --- out of disk space?
+Fractional sampling not implemented yet
+Huffman code size table overflow
+Missing Huffman code table entry
+Maximum supported image dimension is %u pixels
+Empty input file
+Premature end of input file
+Cannot transcode due to multiple use of quantization table %d
+Scan script does not transmit all data
+Invalid color quantization mode change
+Not implemented yet
+Requested feature was omitted at compile time
+Backing store not supported
+Huffman table 0x%02x was not defined
+JPEG datastream contains no image
+Quantization table 0x%02x was not defined
+Not a JPEG file: starts with 0x%02x 0x%02x
+Insufficient memory (case %d)
+Cannot quantize more than %d color components
+Cannot quantize to fewer than %d colors
+Cannot quantize to more than %d colors
+Invalid JPEG file structure: two SOF markers
+Invalid JPEG file structure: missing SOS marker
+Unsupported JPEG process: SOF type 0x%02x
+Invalid JPEG file structure: two SOI markers
+Invalid JPEG file structure: SOS before SOF
+Failed to create temporary file %s
+Read failed on temporary file
+Seek failed on temporary file
+Write failed on temporary file --- out of disk space?
+Application transferred too few scanlines
+Unsupported marker type 0x%02x
+Virtual array controller messed up
+Image too wide for this implementation
+Read from XMS failed
+Write to XMS failed
+Copyright (C) 1996, Thomas G. Lane
+6a  7-Feb-96
+Caution: quantization tables are too coarse for baseline JPEG
+Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+Unknown APP0 marker (not JFIF), length %u
+Unknown APP14 marker (not Adobe), length %u
+Define Arithmetic Table 0x%02x: 0x%02x
+Define Huffman Table 0x%02x
+Define Quantization Table %d  precision %d
+Define Restart Interval %u
+Freed EMS handle %u
+Obtained EMS handle %u
+End Of Image
+        %3d %3d %3d %3d %3d %3d %3d %3d
+JFIF APP0 marker, density %dx%d  %d
+Warning: thumbnail image size does not match data length %u
+Unknown JFIF minor revision number %d.%02d
+    with %d x %d thumbnail image
+Skipping marker 0x%02x, length %u
+Unexpected marker 0x%02x
+        %4u %4u %4u %4u %4u %4u %4u %4u
+Quantizing to %d = %d*%d*%d colors
+Quantizing to %d colors
+Selected %d colors for quantization
+At marker 0x%02x, recovery action %d
+RST%d
+Smoothing not supported with nonstandard sampling ratios
+Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+    Component %d: %dhx%dv q=%d
+Start of Image
+    Component %d: dc=%d ac=%d
+  Ss=%d, Se=%d, Ah=%d, Al=%d
+Closed temporary file %s
+Opened temporary file %s
+Unrecognized component IDs %d %d %d, assuming YCbCr
+Freed XMS handle %u
+Obtained XMS handle %u
+Unknown Adobe color transform code %d
+Inconsistent progression sequence for component %d coefficient %d
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: bad Huffman code
+Warning: unknown JFIF revision number %d.%02d
+Premature end of JPEG file
+Corrupt JPEG data: found marker 0x%02x instead of RST%d
+Invalid SOS parameters for sequential JPEG
+Application transferred too many scanlines
+Incompatible libpng version in application and library
+1.1.3
+zlib memory error
+Not a PNG file
+PLTE
+tRNS
+Missing IHDR before IDAT
+Missing PLTE before IDAT
+Not enough image data
+Teapot\Part06.dds
+NULL row buffer
+ame\Bonuses\Score5.dds
+unknown compression method
+Out of Memory
+Ignoring bad adaptive filter type
+Out of place IHDR
+Invalid bit depth in IHDR
+Unknown interlace method in IHDR
+Invalid PLTE after IDAT
+Duplicate PLTE chunk
+Missing IHDR before tRNS
+Missing PLTE before tRNS
+tRNS chunk not allowed with alpha channel
+png_do_dither returned rowbytes=0
+Call to NULL read function
+It's an error to set both read_data_fn and write_data_fn in the 
+ Ltd. ALL RIGHTS RESERVED.
+invalid window size
+incorrect header check
+incorrect data check
+need dictionary
+invalid chunk type
+Invalid IHDR chunk
+Invalid color type in IHDR
+Unknown compression method in IHDR
+Truncating incorrect tRNS chunk length
+Ignoring incorrect gAMA value when sRGB is also present
+Missing IHDR before sRGB
+Duplicate sRGB chunk
+Invalid color type/bit depth combination in IHDR
+Missing IHDR before PLTE
+Invalid palette chunk
+Incorrect IEND chunk length
+Incorrect gAMA chunk length
+Out of place gAMA chunk
+Duplicate gAMA chunk
+Out of place sRGB chunk
+Zero length tRNS chunk
+invalid literal/length code
+invalid distance code
+ please fix
+ios_base::eofbit set
+oversubscribed distance tree
+empty distance tree with lengths
+incomplete literal/length tree
+1#IND
+Program: 
+invalid stored block lengths
+too many length or distance symbols
+oversubscribed dynamic bit lengths tree
+incomplete dynamic bit lengths tree
+incomplete distance tree
+oversubscribed literal/length tree
+invalid string position
+string too long
+ios_base::badbit set
+ios_base::failbit set
+bad allocation
+ures
+shers>
+			<Publisher URI="http://alawar.com">Alawar  Entertainment</Publisher>
+		</Publishers>
+		<GameExecutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+s>
+			<Publisher URI="http://alawar.com">Alawar  Entertainment</Publisher>
+		</Publishers>
+		<GameExecutables>
+			<GameExecutable path="Snowy.exe"/>
+		</GameExecutables>
+	</GameDefinition>
+</GameDefinitionFile>
+P(
+ Serif
+lName
+eVersion
+iption
+cription
+eInfo
+tringFileInfo
+ns Serif
+nalName
+Copyright
+nment
+040a
+KERNEL32
+(null)
+(null)
+Unknown exception
+am/pm
+mscoree.dll
+CorExitProcess
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+LC_COLLATE
+e+000
+IsProcessorFeaturePresent
+log10
+log2
+exp10
+exp2
+modf
+floor
+ceil
+atan
+AuthenticAMD
+R6002
+- floating point not loaded
+
+R6008
+- not enough space for arguments
+
+R6009
+- not enough space for environment
+
+
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
+
+R6016
+- not enough space for thread data
+
+R6017
+- unexpected multithread lock error
+
+R6018
+- unexpected heap error
+
+R6019
+- unable to open console device
+
+R6024
+- not enough space for _onexit/atexit table
+
+R6025
+- pure virtual function call
+
+R6026
+- not enough space for stdio initialization
+
+R6027
+- not enough space for lowio initialization
+
+R6028
+- unable to initialize heap
+
+R6029
+- This application cannot run using the active version of the Microsoft .NET Runtime
+Please contact the application's support team for more information.
+
+DOMAIN error
+
+SING error
+
+TLOSS error
+
+runtime error 
+<program name unknown>
+Runtime Error!
+
+Program: 
+Microsoft Visual C++ Runtime Library
+sinh
+cosh
+tanh
+asin
+acos
+atan2
+sqrt
+fabs
+ldexp
+_cabs
+_hypot
+fmod
+frexp
+_logb
+_nextafter
+america
+britain
+china
+czech
+england
+great britain
+holland
+hong-kong
+new-zealand
+pr china
+pr-china
+puerto-rico
+slovak
+south africa
+south korea
+south-africa
+south-korea
+trinidad & tobago
+\Game\BonusBoxes\Box1\Part6.dds
+united-kingdom
+united-states
+1252
+Spain
+Spanish - Traditional Sort
+Norwegian-Nynorsk
+1#INF
+A security error of unknown cause has been detected which has
+corrupted the program's internal state.  The program cannot safely
+continue execution and must now be terminated.
+
+Buffer overrun detected!
+1#SNAN
+1#QNAN
+MessageBoxA
+GetUserObjectInformationA
+american
+american english
+american-english
+australian
+belgian
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+dutch-belgian
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+irish-english
+italian-swiss
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+portuguese-brazilian
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+eFont.dds
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+swedish-finland
+swiss
+user32.dll
+GetActiveWindow
+GetLastActivePopup
+GetProcessWindowStation
+Unknown security failure detected!
+A buffer overrun has been detected which has corrupted the program's
+internal state.  The program cannot safely continue execution and must
+now be terminated.
+

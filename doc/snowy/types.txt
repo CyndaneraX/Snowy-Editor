@@ -1,0 +1,56 @@
+TILES
+================
+1 = normal tile
+2 = diag right down tile
+3 = diag right up tile
+4 = diag left down tile
+5 = diag left up tile
+
+OBJECTS
+================
+6 = red monster1
+7 = red monster2
+8 = red monster3
+9 = red monster4
+10 = green monster1(shoots left & right)
+11 = player snowy
+12 = green monster2(shoots down at player)
+13 = green monster3(shoots down at player)
+14 = dog monster1
+15 = dog monster2
+16 = dog monster3
+17 = dog monster4
+18 = bird monster1
+19 = bird monster2
+20 = tusk monster1
+21 = tusk monster2
+22 = tornado monster1
+23 = tornado monster2
+24 = bomber monster1
+25 = bomber monster2
+26 = bomber monster3
+27 = bomber monster4
+28 = red monster5
+29 = red monster6
+31 = boss bag
+33 = boss teapot
+35 = boss balloon
+37 = boss mask
+38 = dog monster5
+39 = dog monster6
+40 = bomber monster5
+41 = bomber monster6
+42 = bomber monster7
+43 = bomber monster8
+44 = ballbot monster1
+45 = ballbot monster2
+46 = ballbot monster3
+47 = ballbot monster4
+48 = cat monster1
+49 = cat monster2
+50 = cat monster3
+51 = cat monster4
+52 = cat monster5
+53 = cat monster6
+54 = boss hen
+55 = boss hen
