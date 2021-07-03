@@ -13,8 +13,5 @@ struct_root {
 		
 		u16 tile[x][y];
 		u16 object[x][y];
-		
-		u32 unk;
-		u32 unk;
 	}
 }

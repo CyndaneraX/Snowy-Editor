@@ -14,9 +14,9 @@ OBJECTS
 8 = red monster3
 9 = red monster4
 10 = green monster1(shoots left & right)
-11 = ?
-12 = green monster2(shoots down at player)
-13 = green monster3(shoots down at player)
+11 = green monster2(shoots left & right)
+12 = green monster3(shoots down at player)
+13 = green monster4(shoots down at player)
 14 = dog monster1
 15 = dog monster2
 16 = dog monster3
@@ -53,5 +53,5 @@ OBJECTS
 51 = cat monster4
 52 = cat monster5
 53 = cat monster6
-54 = boss hen
-55 = boss hen
+54 = boss hen1
+55 = boss hen2

@@ -10,22 +10,24 @@ Function LoadMap(filename:String)
         ReadInt(file) 'unknown - 16
         levelCount = ReadInt(file)
         
-        worldtype[currLv] = ReadShort(file)
-        map_width[currLv] = ReadShort(file)
-        map_height[currLv] = ReadShort(file)
+        For i = 0 To levelCount - 1
+        worldtype[i] = ReadShort(file)
+        map_width[i] = ReadShort(file)
+        map_height[i] = ReadShort(file)
 
         'Read Tiles
-        For x=0 To map_height[currLv]-1
-           For y=0 To map_width[currLv]-1
-              map[currLv, y, x] = ReadShort(file)
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
+              map[i, y, x] = ReadShort(file)
            Next
         Next
 
        'Read Objects
-        For x=0 To map_height[currLv]-1
-           For y=0 To map_width[currLv]-1
-              map2[currLv, y, x] = ReadShort(file)
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
+              map2[i, y, x] = ReadShort(file)
            Next
+        Next
         Next
 
         CloseFile(file)

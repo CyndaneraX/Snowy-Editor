@@ -52,15 +52,15 @@ Function SaveMap(filename:String)
         WriteShort(file, map_height[i])
 
         'Write Tiles
-        For x=0 To map_width[i]-1
-           For y=0 To map_height[i]-1
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
               WriteShort(file, map[i, y, x])
            Next
         Next
 
        'Write Objects
-        For x=0 To map_width[i]-1
-           For y=0 To map_height[i]-1
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
               WriteShort(file, map2[i, y, x])
            Next
         Next

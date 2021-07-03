@@ -10,9 +10,10 @@ Global tiletype:Int = 1
 Global worldType[1000]
 Global editmode:Int = 0
 Global map_version:Int = 18515
-Global levelCount:Int = 1
+Global levelCount:Int = 0
 Global currLv:Int = 0
-'Blocks
+'Worlds
+Global img_background:TImage
 Global img_block:TImage
 Global img_diagblock_left_down:TImage
 Global img_diagblock_left_up:TImage
@@ -23,10 +24,12 @@ Global img_hero:TImage
 Global img_object:TImage
 Global img_error:TImage
 'Monsters
+Global img_monster_red:TImage
 Global img_monster_green:TImage
 Global img_monster_ballbot:TImage
 Global img_monster_boss_mask:TImage
 'World config globals
+Global Background_Filename:String
 Global Block_Filename:String
 Global Diagblock_Left_Down_Filename:String
 Global Diagblock_Left_Up_Filename:String

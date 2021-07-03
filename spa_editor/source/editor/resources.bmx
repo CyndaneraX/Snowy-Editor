@@ -12,19 +12,34 @@ img_object=LoadImage(Rootdir+"textures\common\object.png")
 'Error
 img_error=LoadImage(Rootdir+"textures\common\error.png")
 
-'Green Monster
-img_monster_green=LoadImage(Rootdir+"textures\monsters\green.png")
-
-'Ballbot Monster
-img_monster_ballbot=LoadImage(Rootdir+"textures\monsters\ballbot.png")
-
-'Boss Mask Monster
-img_monster_boss_mask=LoadImage(Rootdir+"textures\monsters\boss_mask.png")
+img_monster_red=LoadImage(rootDir+"textures\monsters\red.png")
+img_monster_green=LoadImage(rootDir+"textures\monsters\green.png")
+img_monster_green2=LoadImage(rootDir+"textures\monsters\green2.png")
+img_monster_bird=LoadImage(rootDir+"textures\monsters\bird.png")
+img_monster_bomer=LoadImage(rootDir+"textures\monsters\bomber.png")
+img_monster_dog=LoadImage(rootDir+"textures\monsters\dog.png")
+img_monster_tusk=LoadImage(rootDir+"textures\monsters\tusk.png")
+img_monster_tornado=LoadImage(rootDir+"textures\monsters\tornado.png")
+img_monster_ballbot=LoadImage(rootDir+"textures\monsters\ballbot.png")
+img_monster_cat=LoadImage(rootDir+"textures\monsters\cat.png")
+img_monster_boss_teapot=LoadImage(rootDir+"textures\monsters\boss_teapot.png")
+img_monster_boss_bag=LoadImage(rootDir+"textures\monsters\boss_bag.png")
+img_monster_boss_balloon=LoadImage(rootDir+"textures\monsters\boss_balloon.png")
+img_monster_boss_mask=LoadImage(rootDir+"textures\monsters\boss_mask.png")
+img_monster_boss_hen=LoadImage(rootDir+"textures\monsters\boss_hen.png")
 End Function
 
 Function LoadWorldResources()
 DebugLog("Loading World Resources.")
-'Blocks
+
+'Background
+img_background=LoadImage(Rootdir+Background_Filename)
+'check image
+If img_background Then
+DebugLog("Image Loaded: " + Rootdir+Background_Filename)
+Else
+globalerror("Couldn't Image: " + Rootdir+Background_Filename)
+EndIf
 
 'Block
 img_block=LoadAnimImage(Rootdir+Block_Filename,40,40,0,16)
