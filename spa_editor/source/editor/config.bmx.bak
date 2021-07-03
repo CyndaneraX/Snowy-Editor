@@ -1,0 +1,111 @@
+Function LoadAppConfig(filename:String)
+Local file:TStream=ReadFile(filename)
+If file Then
+DebugLog("App Config Loaded: "+filename)
+'Window Title
+LIB_Title:String=ReadLine$(file)
+Title=ReadLine$(file)
+'Window Width
+LIB_Width:String=ReadLine$(file)
+Win_Width=Int(ReadLine$(file))
+'Window Height
+LIB_Height:String=ReadLine$(file)
+Win_Height=Int(ReadLine$(file))
+'Window Depth
+LIB_Depth:String=ReadLine$(file)
+Win_Depth=Int(ReadLine$(file))
+'Window Fullscreen
+LIB_Fullscreen:String=ReadLine$(file)
+Fullscreen=Int(ReadLine$(file))
+'Gfx Vsync
+LIB_VSync:String=ReadLine$(file)
+Win_VSync=Int(ReadLine$(file))
+CloseFile(file)
+Else
+globalerror("Couldn't Load Config - "+filename)
+EndIf
+End Function
+
+Function LoadVersionConfig(filename:String)
+Local file:TStream=ReadFile(filename)
+If file Then
+DebugLog("Version Config Loaded: "+filename)
+'App Version
+LIB_Version:String=ReadLine$(file)
+App_Version=ReadLine$(file)
+'App Company
+LIB_Company:String=ReadLine$(file)
+App_Company=ReadLine$(file)
+'Level Version
+LIB_Level_Version:String=ReadLine$(file)
+Map_Version=ReadLine$(file)
+CloseFile(file)
+Else
+globalerror("Couldn't Load Config - "+filename)
+EndIf
+End Function
+
+Function LoadResourcesConfig(filename:String)
+Local file:TStream=ReadFile(filename)
+If file Then
+DebugLog("Resources Config Loaded: "+filename)
+'Hero Object
+ReadLine$(file)
+Hero_Filename=ReadLine$(file)
+'Object
+ReadLine$(file)
+Object_Filename=ReadLine$(file)
+'Error
+ReadLine$(file)
+Error_Filename=ReadLine$(file)
+'Green Monster
+ReadLine$(file)
+Green_Filename=ReadLine$(file)
+'Robot Monster
+ReadLine$(file)
+Robo_Filename=ReadLine$(file)
+'Boss Mask Monster
+ReadLine$(file)
+Boss_Mask_Filename=ReadLine$(file)
+CloseFile(file)
+EndIf
+End Function
+
+Function LoadEditorConfig(filename:String)
+Local file:TStream=ReadFile(filename)
+If file Then
+DebugLog("Editor Config Loaded: "+filename)
+'Game Data Dir
+ReadLine$(file)
+Gamedir=ReadLine$(file)
+'Map Filename
+ReadLine$(file)
+Map_Filename=ReadLine$(file)
+CloseFile(file)
+Else
+globalerror("Couldn't Load Config - "+filename)
+EndIf
+End Function
+
+Function LoadWorldConfig(filename:String)
+Local file:TStream=ReadFile(filename)
+If file Then
+DebugLog("World Config Loaded: "+filename)
+'Block
+ReadLine$(file)
+Block_Filename=ReadLine$(file)
+'Diagblock Left Down
+ReadLine$(file)
+Diagblock_Left_Down_Filename=ReadLine$(file)
+'Diagblock Left Up
+ReadLine$(file)
+Diagblock_Left_Up_Filename=ReadLine$(file)
+'Diagblock Right Up
+ReadLine$(file)
+Diagblock_Right_Down_Filename=ReadLine$(file)
+'Diagblock Right Up
+ReadLine$(file)
+Diagblock_Right_Up_Filename=ReadLine$(file)
+CloseFile(file)
+EndIf
+End Function

@@ -1,0 +1,9 @@
+WIP
+
+TILES
+================
+1 = normal tile
+
+OBJECTS
+================
+11 = player snowy

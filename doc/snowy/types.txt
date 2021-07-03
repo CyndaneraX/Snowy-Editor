@@ -8,12 +8,13 @@ TILES
 
 OBJECTS
 ================
+5 = player snowy
 6 = red monster1
 7 = red monster2
 8 = red monster3
 9 = red monster4
 10 = green monster1(shoots left & right)
-11 = player snowy
+11 = ?
 12 = green monster2(shoots down at player)
 13 = green monster3(shoots down at player)
 14 = dog monster1

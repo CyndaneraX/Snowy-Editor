@@ -1,0 +1,73 @@
+Function LoadMap(filename:String)
+   Local file:TStream = ReadFile(filename)
+
+   If file Then
+      DebugLog("Map Loaded:"+filename)
+      
+      map_sign = ReadInt(file)
+
+      If map_sign = map_version Then
+        ReadInt(file) 'unknown - 16
+        levelCount = ReadInt(file)
+        
+        worldtype[currLv] = ReadShort(file)
+        map_width[currLv] = ReadShort(file)
+        map_height[currLv] = ReadShort(file)
+
+        'Read Tiles
+        For x=0 To map_height[currLv]-1
+           For y=0 To map_width[currLv]-1
+              map[currLv, y, x] = ReadShort(file)
+           Next
+        Next
+
+       'Read Objects
+        For x=0 To map_height[currLv]-1
+           For y=0 To map_width[currLv]-1
+              map2[currLv, y, x] = ReadShort(file)
+           Next
+        Next
+
+        CloseFile(file)
+      EndIf
+   Else
+      globalerror("Couldn't Load - "+filename)
+   EndIf
+End Function
+
+Function SaveMap(filename:String)
+   Local file:TStream = WriteFile(filename)
+
+   If file Then
+      DebugLog("Map Saved:"+filename)
+      
+      WriteInt(file, map_version)
+
+      WriteInt(file, 16) 'unknown
+      WriteInt(file, levelCount)
+      
+      For i = 0 To levelCount - 1
+        WriteShort(file, worldType[i])
+        WriteShort(file, map_width[i])
+        WriteShort(file, map_height[i])
+
+        'Write Tiles
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
+              WriteShort(file, map[i, y, x])
+           Next
+        Next
+
+       'Write Objects
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
+              WriteShort(file, map2[i, y, x])
+           Next
+        Next
+      Next
+
+      CloseFile(file)
+   Else
+      globalerror("Couldn't Save - "+filename)
+   EndIf
+End Function
