@@ -1,0 +1,9 @@
+<font>
+    <width>28</width>
+	<height>32</height>
+	<framesInLine>4</framesInLine>
+	<unknown1>0</unknown1>
+	<unknown2>0</unknown2>
+	
+    <char frame="0" string="X" unknown="0" />
+</font>
