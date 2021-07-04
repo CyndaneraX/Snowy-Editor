@@ -55,3 +55,8 @@ OBJECTS
 53 = cat monster6
 54 = boss hen1
 55 = boss hen2
+
+Layer3 OBJECTS
+==================
+1 = kick
+

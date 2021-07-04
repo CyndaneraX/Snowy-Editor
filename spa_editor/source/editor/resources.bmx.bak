@@ -12,6 +12,10 @@ img_object=LoadImage(Rootdir+"textures\common\object.png")
 'Error
 img_error=LoadImage(Rootdir+"textures\common\error.png")
 
+'Kick
+img_kick=LoadImage(Rootdir+"textures\common\kick.png")
+
+'Monsters
 img_monster_red=LoadImage(rootDir+"textures\monsters\red.png")
 img_monster_green=LoadImage(rootDir+"textures\monsters\green.png")
 img_monster_green2=LoadImage(rootDir+"textures\monsters\green2.png")
@@ -33,7 +37,7 @@ Function LoadWorldResources()
 DebugLog("Loading World Resources.")
 
 'Background
-img_background=LoadAnimImage(Rootdir+Background_Filename,40,40,0,16)
+img_background=LoadImage(Rootdir+Background_Filename)
 'check image
 If img_background Then
 DebugLog("Image Loaded: " + Rootdir+Background_Filename)

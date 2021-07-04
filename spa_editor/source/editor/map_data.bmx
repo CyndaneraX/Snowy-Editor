@@ -28,7 +28,18 @@ Function LoadMap(filename:String)
               map2[i, y, x] = ReadShort(file)
            Next
         Next
+
+        'Read Layer3
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
+              map3[i, y, x] = ReadShort(file)
+           Next
         Next
+        Next
+
+        lv_unk_1 = ReadShort(file)
+        lv_unk_2 = ReadInt(file)
+        lv_unk_3 = ReadInt(file)
 
         CloseFile(file)
       EndIf
@@ -66,7 +77,18 @@ Function SaveMap(filename:String)
               WriteShort(file, map2[i, y, x])
            Next
         Next
+
+        'Write Layer3
+        For x=0 To map_height[i]-1
+           For y=0 To map_width[i]-1
+              WriteShort(file, map3[i, y, x])
+           Next
+        Next
       Next
+
+      WriteShort(file, lv_unk_1)
+      WriteInt(file, lv_unk_2)
+      WriteInt(file, lv_unk_3)
 
       CloseFile(file)
    Else

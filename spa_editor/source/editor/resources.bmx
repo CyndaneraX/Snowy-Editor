@@ -12,11 +12,15 @@ img_object=LoadImage(Rootdir+"textures\common\object.png")
 'Error
 img_error=LoadImage(Rootdir+"textures\common\error.png")
 
+'Kick
+img_kick=LoadImage(Rootdir+"textures\common\kick.png")
+
+'Monsters
 img_monster_red=LoadImage(rootDir+"textures\monsters\red.png")
 img_monster_green=LoadImage(rootDir+"textures\monsters\green.png")
 img_monster_green2=LoadImage(rootDir+"textures\monsters\green2.png")
 img_monster_bird=LoadImage(rootDir+"textures\monsters\bird.png")
-img_monster_bomer=LoadImage(rootDir+"textures\monsters\bomber.png")
+img_monster_bomber=LoadImage(rootDir+"textures\monsters\bomber.png")
 img_monster_dog=LoadImage(rootDir+"textures\monsters\dog.png")
 img_monster_tusk=LoadImage(rootDir+"textures\monsters\tusk.png")
 img_monster_tornado=LoadImage(rootDir+"textures\monsters\tornado.png")

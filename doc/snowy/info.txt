@@ -1,0 +1,20 @@
+Used
+================
+Microsoft Visual Studio 2003(C, C++) - IDE and Compiler
+DirectX 8 SDK(GFX\input stuff, D3D, D8Input, etc.)
+Bass Audio Lib(used to playback audio and load ogg files)
+Windows SDK(common windows api stuff)
+HTMLayout Lib(used for parsing the html files and html render engine, used for Alawar wrapper)
+wrapper Lib developed by Alawar(Alawar store server used for the games)
+As for jpg, tga loaders I'm not sure what libs could of been used or if they wrote their own
+As for ini parser I'm not sure what lib it could of been or if they wrote their own parser
+
+DLL Imports
+================
+BASS.DLL
+DINPUT8.DLL
+GDI32.DLL
+KERNEL32.DLL
+SHELL32.DLL
+USER32.DLL
+WINMM.DLL
