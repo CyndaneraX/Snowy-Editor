@@ -156,6 +156,7 @@ Function DrawMap()
    DrawText "Y: "+Int((MouseY())/tsize), 0, 60
 
    If KeyHit(KEY_W) Then 
+      If worldType[currLv] = 4 Then worldType[currLv] = -1
       worldtype[currLv] = worldtype[currLv] + 1 'Forwards worldtype
       LoadWorldConfig(Rootdir+"config\worlds\w"+worldtype[currLv]+".cfg")
       LoadWorldResources()
@@ -163,7 +164,8 @@ Function DrawMap()
       DebugLog("Worldtype: "+worldtype[currLv])
    EndIf
 
-   If KeyHit(KEY_D) Then 
+   If KeyHit(KEY_D) Then
+      If worldType[currLv] = 0 Then worldType[currLv] = 5
       worldtype[currLv] = worldtype[currLv] - 1 'Backwards worldtypes
       LoadWorldConfig(Rootdir+"config\worlds\w"+worldtype[currLv]+".cfg")
       LoadWorldResources()
