@@ -1,0 +1,25 @@
+WIP
+
+TILES
+================
+1 = platform1(tile)
+2 = platform2(tile)
+11 = wall1
+12 = wall2
+21 = big wall
+
+OBJECTS
+================
+31 = player snowy
+41 = stone(bridge)
+51 = exit
+701 = item1(fruit)
+702 = item2(fruit)
+703 = item3(fruit)
+704 = item4(fruit)
+705 = item5(fruit)
+
+LAYER3
+================
+1 = ?
+11 = ?
