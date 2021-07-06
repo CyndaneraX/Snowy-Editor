@@ -5,17 +5,12 @@ Include "source\editor\map_data.bmx"
 Include "source\editor\config.bmx"
 Include "source\system\system_error.bmx"
 
-LoadAppConfig("data\editor\config\application.cfg")
-LoadVersionConfig("data\editor\config\version.cfg")
-LoadResourcesConfig("data\editor\config\resources.cfg")
+LoadResourcesConfig(rootDir+"config\resources.cfg")
 
-AppTitle = Title
-Graphics win_height,win_width
+AppTitle = "Snowy Treasure Hunter Editor"
+Graphics 800, 600
 
-LoadResources()
-LoadMapPack("packs\standard\4.thp",0)
-LoadWorldConfig("data\editor\config\worlds\w"+worldtype+".cfg")
-LoadWorldResources()
+InitMap()
 
 While Not AppTerminate()
 Cls

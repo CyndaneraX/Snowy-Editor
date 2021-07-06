@@ -2,81 +2,14 @@ Function LoadResources()
 DebugLog("Loading Default Resources.")
 'Common
 
-'Hero
 img_hero=LoadImage(Hero_Filename)
-'check image
-If img_hero Then
-DebugLog("Image Loaded: " + Hero_Filename)
-Else
-globalerror("Couldn't Image: " + Hero_Filename)
-EndIf
-
-'Ice1
 img_ice1=LoadImage(Ice1_Filename)
-'check image
-If img_ice1 Then
-DebugLog("Image Loaded: " + Ice1_Filename)
-Else
-globalerror("Couldn't Image: " + Ice1_Filename)
-EndIf
-
-'Ice2
 img_ice2=LoadImage(Ice2_Filename)
-'check image
-If img_ice2 Then
-DebugLog("Image Loaded: " + Ice2_Filename)
-Else
-globalerror("Couldn't Image: " + Ice2_Filename)
-EndIf
-
-'Bonuses
-
-'Score
 img_score=LoadImage(Score_Filename)
-'check image
-If img_score Then
-DebugLog("Image Loaded: " + Score_Filename)
-Else
-globalerror("Couldn't Image: " + Score_Filename)
-EndIf
-
-'Life
 img_life=LoadImage(Life_Filename)
-'check image
-If img_life Then
-DebugLog("Image Loaded: " + Life_Filename)
-Else
-globalerror("Couldn't Image: " + Life_Filename)
-EndIf
-
-'Items
-
-'Trap
 img_trap=LoadImage(Trap_Filename)
-'check image
-If img_trap Then
-DebugLog("Image Loaded: " + Trap_Filename)
-Else
-globalerror("Couldn't Image: " + Trap_Filename)
-EndIf
-
-'Bomb
 img_bomb=LoadImage(Bomb_Filename)
-'check image
-If img_bomb Then
-DebugLog("Image Loaded: " + Bomb_Filename)
-Else
-globalerror("Couldn't Image: " + Bomb_Filename)
-EndIf
-
-'Fakehero
 img_fakehero=LoadImage(Fakehero_Filename)
-'check image
-If img_fakehero Then
-DebugLog("Image Loaded: " + Fakehero_Filename)
-Else
-globalerror("Couldn't Image: " + Fakehero_Filename)
-EndIf
 End Function
 
 Function LoadWorldResources()

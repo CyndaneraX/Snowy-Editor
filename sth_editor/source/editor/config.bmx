@@ -1,50 +1,3 @@
-Function LoadAppConfig(filename:String)
-Local file:TStream=ReadFile(filename)
-If file Then
-DebugLog("App Config Loaded: "+filename)
-'Window Title
-LIB_Title:String=ReadLine$(file)
-Title=ReadLine$(file)
-'Window Height
-LIB_Height:String=ReadLine$(file)
-Win_Height=Int(ReadLine$(file))
-'Window Width
-LIB_Width:String=ReadLine$(file)
-Win_Width=Int(ReadLine$(file))
-'Window Depth
-LIB_Depth:String=ReadLine$(file)
-Win_Depth=Int(ReadLine$(file))
-'Window Fullscreen
-LIB_Fullscreen:String=ReadLine$(file)
-Fullscreen=Int(ReadLine$(file))
-'Gfx Vsync
-LIB_VSync:String=ReadLine$(file)
-Win_VSync=Int(ReadLine$(file))
-CloseFile(file)
-Else
-globalerror("Couldn't Load Config - "+filename)
-EndIf
-End Function
-
-Function LoadVersionConfig(filename:String)
-Local file:TStream=ReadFile(filename)
-If file Then
-DebugLog("Version Config Loaded: "+filename)
-'App Version
-LIB_Version:String=ReadLine$(file)
-App_Version=ReadLine$(file)
-'App Company
-LIB_Company:String=ReadLine$(file)
-App_Company=ReadLine$(file)
-'Level Version
-LIB_Level_Version:String=ReadLine$(file)
-Map_Version=ReadLine$(file)
-CloseFile(file)
-Else
-globalerror("Couldn't Load Config - "+filename)
-EndIf
-End Function
-
 Function LoadResourcesConfig(filename:String)
 Local file:TStream=ReadFile(filename)
 If file Then
@@ -83,10 +36,7 @@ If file Then
 DebugLog("World Config Loaded: "+filename)
 'Background1
 LIB_Background1:String=ReadLine$(file)
-Background1_Filename=ReadLine$(file)
-'Background2
-LIB_Background2:String=ReadLine$(file)
-Background2_Filename=ReadLine$(file)
+Background_Filename=ReadLine$(file)
 'Block
 LIB_Block:String=ReadLine$(file)
 Block_Filename=ReadLine$(file)

@@ -1,0 +1,23 @@
+.arf snowy archive format
+
+struct_root {
+    u8 sign[2]; // "AR"
+	u16 zero;
+	u32 fileCount;
+	u8 key1;
+	u8 key2;
+	u8 key3;
+	u8 key4;
+	u32 offset;
+	
+	struct_file {
+	    u8 namesz;
+	}
+	
+	struct_file {
+	    u32 id;
+		u32 offset;
+		u32 size;
+		u32 key;
+	}
+}

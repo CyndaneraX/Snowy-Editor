@@ -1,14 +1,24 @@
-Function DrawMapBackground()
-If img_background1 Then DrawImage img_background1,0,0
-If img_background2 Then DrawImage img_background2,0,0
+Function InitMap()
+levelCount = 12
+
+    For i:Int = 0 To 1000 - 1
+        map_width[i] = 40
+        map_height[i] = 30
+        worldType[i] = 4294901760
+    Next
+
+LoadResources()
+LoadMap(packsDir+"standard\4.thp")
+LoadWorldConfig(rootDir+"config\worlds\w"+worldtype[currlv]+".cfg")
+LoadWorldResources()
 End Function
 
 Function DrawMap()
-DrawMapBackground()
+If img_background Then DrawImage img_background,0,0
 
-For y2=0 To height-1
-For x2=0 To width-1
-Select map2(x2,y2)
+For x=0 To map_width[currlv]-1
+For y=0 To map_height[currlv]-1
+Select map2(currlv, x,y)
 Case 0
 Case 373
 If img_gem1 Then DrawImage(img_gem1,scroll_x+x2*tsize-12,scroll_y+y2*tsize-10)
@@ -23,15 +33,15 @@ If img_gem5 Then DrawImage(img_gem5,scroll_x+x2*tsize-12,scroll_y+y2*tsize-10)
 Case 378
 If img_gem6 Then DrawImage(img_gem6,scroll_x+x2*tsize-12,scroll_y+y2*tsize-10)
 Default'DEFAULT
-DrawText("O"+map2(x2,y2),scroll_x+x*tsize-8,scroll_y+y*tsize-17)
-DebugLog("Object:"+map2(x2,y2))
+DrawText("O"+map2(currlv, x,y),scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+'DebugLog("Object:"+map2(currlv, x, y))
 End Select
 Next
 Next
 
-For y=0 To height-1
-For x=0 To width-1
-Select map(x,y)
+For x=0 To map_width[currlv]-1
+For y=0 To map_height[currlv]-1
+Select map(currlv, x,y)
 Case 0'NONE
 Case 1
 If img_block_ground Then DrawImage(img_block_ground,scroll_x+x*tsize,scroll_y+y*tsize)
@@ -185,8 +195,8 @@ If img_bomb Then DrawImage(img_bomb,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 Case 272'Item-Fakehero
 If img_fakehero Then DrawImage(img_fakehero,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 Default'DEFAULT
-DrawText("T"+map(x,y),scroll_x+x*tsize-8,scroll_y+y*tsize-17)
-DebugLog("Tile:"+map(x,y))
+DrawText("T"+map(currlv, x,y),scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+'DebugLog("Tile:"+map(currlv, x,y))
 End Select
 Next
 Next
@@ -194,22 +204,22 @@ Next
 DrawRect (((scroll_x+MouseX())/tsize)*tsize)-scroll_x-1,(((MouseY()+scroll_y)/tsize)*tsize)-scroll_y-1,tsize+2,tsize+2
 
 If KeyHit(KEY_W) Then 
-worldtype = worldtype + 1 'Forwards worldtype
-LoadWorldConfig("data\editor\config\worlds\w"+worldtype+".cfg")
+worldtype[currlv] = worldtype[currlv] + 1 'Forwards worldtype
+LoadWorldConfig(rootDir+"config\worlds\w"+worldtype[currlv]+".cfg")
 LoadWorldResources()
 Cls
-DebugLog("Worldtype: "+worldtype)
+DebugLog("Worldtype: "+worldtype[currlv])
 EndIf
 
 If KeyHit(KEY_D) Then 
-worldtype = worldtype - 1 'Backwards worldtypes
-LoadWorldConfig("data\editor\config\worlds\w"+worldtype+".cfg")
+worldtype[currlv] = worldtype[currlv] - 1 'Backwards worldtypes
+LoadWorldConfig(rootDir+"config\worlds\w"+worldtype[currlv]+".cfg")
 LoadWorldResources()
 Cls
-DebugLog("Worldtype: "+worldtype)
+DebugLog("Worldtype: "+worldtype[currlv])
 EndIf
 
-DrawText "Worldtype:"+worldtype,0,20
+DrawText "Worldtype:"+worldtype[currlv],0,20
 
 Select editmode
 Case 0'Tilemode
@@ -348,7 +358,7 @@ Function UpdateMap()
 If editmode=2 Then editmode=0
 If editmode=-1 Then editmode=1
 'control worldtype
-If worldtype=-1 Then worldtype=0
+If worldtype[currlv]=-1 Then worldtype[currlv]=0
 
 Select editmode
 Case 0'Tilemode
@@ -368,9 +378,9 @@ If KeyHit(KEY_2) Then tiletype=tiletype+1
 
 'Map Data
 'Saving Map Data
-If KeyHit(KEY_S) Then SaveMapScreen()
+If KeyHit(KEY_S) Then SaveMap(packsDir+"standard\4.thp")
 'Loading Map Data
-If KeyHit(KEY_L) Then LoadMapScreen()
+If KeyHit(KEY_L) Then LoadMap(packsDir+"standard\4.thp")
 'place tile
 If MouseDown(MOUSE_LEFT) Then
 Select editmode
@@ -378,189 +388,189 @@ Case 0'Tilemode
 Select tiletype
 Case 1
 DebugLog "Placed Tile:Block"
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 1
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 1
 Case 2
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 2
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 2
 DebugLog "Placed Tile:Block2"
 Case 3
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 3
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 3
 DebugLog "Placed Tile:Rock"
 Case 4
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 4
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 4
 DebugLog "Placed Tile:Ice"
 Case 5
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 6
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 6
 DebugLog "Placed Tile:Ladder"
 Case 6
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 7
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 7
 DebugLog "Placed Tile:Hidden-Ladder"
 Case 7
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 8
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 8
 DebugLog "Placed Tile:HBar"
 Case 8
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 9
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 9
 DebugLog "Placed Tile:Exit"
 Case 9
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 10
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 10
 DebugLog "Placed Tile:Exit-Closed"
 Case 10
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 11
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 11
 DebugLog "Placed Tile:Hero"
 Case 11
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 12
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 12
 DebugLog "Placed Tile:Teleport-In1"
 Case 12
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 13
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 13
 DebugLog "Placed Tile:Teleport-In2"
 Case 13
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 14
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 14
 DebugLog "Placed Tile:Teleport-In3"
 Case 14
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 15
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 15
 DebugLog "Placed Tile:Teleport-In4"
 Case 15
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 16
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 16
 DebugLog "Placed Tile:Teleport-In5"
 Case 16
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 17
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 17
 DebugLog "Placed Tile:Teleport-In6"
 Case 17
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 18
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 18
 DebugLog "Placed Tile:Teleport-In7"
 Case 18
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 19
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 19
 DebugLog "Placed Tile:Teleport-In8"
 Case 19
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 20
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 20
 DebugLog "Placed Tile:Teleport-In9"
 Case 20
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 21
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 21
 DebugLog "Placed Tile:Teleport-In10"
 Case 21
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 22
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 22
 DebugLog "Placed Tile:Teleport-In11"
 Case 22
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 23
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 23
 DebugLog "Placed Tile:Teleport-In12"
 Case 23
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 24
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 24
 DebugLog "Placed Tile:Teleport-In13"
 Case 24
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 25
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 25
 DebugLog "Placed Tile:Teleport-In14"
 Case 25
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 26
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 26
 DebugLog "Placed Tile:Teleport-In15"
 Case 26
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 27
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 27
 DebugLog "Placed Tile:Teleport-Out1"
 Case 27
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 28
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 28
 DebugLog "Placed Tile:Teleport-Out2"
 Case 28
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 29
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 29
 DebugLog "Placed Tile:Teleport-Out3"
 Case 29
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 30
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 30
 DebugLog "Placed Tile:Teleport-Out4"
 Case 30
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 31
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 31
 DebugLog "Placed Tile:Teleport-Out5"
 Case 31
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 32
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 32
 DebugLog "Placed Tile:Teleport-Out6"
 Case 32
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 33
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 33
 DebugLog "Placed Tile:Teleport-Out7"
 Case 33
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 34
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 34
 DebugLog "Placed Tile:Teleport-Out8"
 Case 34
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 35
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 35
 DebugLog "Placed Tile:Teleport-Out9"
 Case 35
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 36
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 36
 DebugLog "Placed Tile:Teleport-Out10"
 Case 36
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 37
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 37
 DebugLog "Placed Tile:Teleport-Out11"
 Case 37
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 38
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 38
 DebugLog "Placed Tile:Teleport-Out12"
 Case 38
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 39
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 39
 DebugLog "Placed Tile:Teleport-Out13"
 Case 39
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 40
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 40
 DebugLog "Placed Tile:Teleport-Out14"
 Case 40
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 41
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 41
 DebugLog "Placed Tile:Teleport-Out15"
 Case 41
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 142
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 142
 DebugLog "Placed Tile:Stoneman"
 Case 42
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 483
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 483
 DebugLog "Placed Tile:Score"
 Case 43
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 146
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 146
 DebugLog "Placed Tile:Monster-Smart1"
 Case 44
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 268
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 268
 DebugLog "Placed Tile:Key"
 Case 45
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 269
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 269
 DebugLog "Placed Tile:Item-Cage"
 Case 46
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 145
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 145
 DebugLog "Placed Tile:Smart-Stoneman"
 Case 47
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 147
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 147
 DebugLog "Placed Tile:Monster-Smart2"
 Case 48
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 156
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 156
 DebugLog "Placed Tile:Monster-Smart-Spawner"
 Case 49
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 271
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 271
 DebugLog "Placed Tile:Item-Bomb"
 Case 50
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 272
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 272
 DebugLog "Placed Tile:Item-Fakehero"
 Case 51
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 157
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 157
 DebugLog "Placed Tile:Monster-Smart2-Spawner"
 Case 52
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 158
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 158
 DebugLog "Placed Tile:Monster-Smart3-Spawner"
 Case 53
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 148
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 148
 DebugLog "Placed Tile:Monster-Smart3"
 Case 54
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 149
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 149
 DebugLog "Placed Tile:Monster-Smart4"
 Case 55
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 159
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 159
 DebugLog "Placed Tile:Monster-Smart4-Spawner"
 End Select
 Case 1'Objectmode
 Select tiletype
 Case 1
-map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 373
+map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 373
 DebugLog "Placed Tile:Gem1"
 Case 2
-map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 374
+map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 374
 DebugLog "Placed Tile:Gem2"
 Case 3
-map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 375
+map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 375
 DebugLog "Placed Tile:Gem3"
 Case 4
-map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 376
+map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 376
 DebugLog "Placed Tile:Gem4"
 Case 5
-map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 377
+map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 377
 DebugLog "Placed Tile:Gem5"
 Case 6
-map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 378
+map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 378
 DebugLog "Placed Tile:Gem6"
 End Select
 End Select
@@ -569,65 +579,20 @@ EndIf
 If MouseDown(MOUSE_RIGHT) Then
 Select editmode
 Case 0'Tilemode
-If Not map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0 Then
+If Not map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0 Then
 DebugLog "Removed Tile"
-map((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0
+map(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0
 EndIf
 Case 1'Objectmode
-If Not map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0 Then
+If Not map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0 Then
 DebugLog "Removed Object"
-map2((MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0
+map2(currlv, (MouseX()+scroll_x)/tsize,(MouseY()+scroll_y)/tsize) = 0
 EndIf
 End Select
 EndIf
-If scroll_x > 40 Then If KeyHit(KEY_RIGHT) Then scroll_x=scroll_x+1
+
+If scroll_x > map_width[currlv] Then If KeyHit(KEY_RIGHT) Then scroll_x=scroll_x+1
 If scroll_x < 0 Then If KeyDown(KEY_LEFT) Then scroll_x=scroll_x+1
 If scroll_y < 0 Then If KeyDown(KEY_UP) Then scroll_y=scroll_y+1
-If scroll_y > 30 Then If KeyDown(KEY_DOWN) Then scroll_y=scroll_y-1
-End Function
-
-Function SaveMapScreen()
-lpkmode:Int = 0
-lpkname:String = ""
-'startinit
-Print("Save - Game - Levelpack")
-Print("0 - kids")
-Print("1 - standard")
-lpkmode:Int = Int(Input("Levelmode: "))
-Select lpkmode
-Case 0
-lpkname:String = Input$("Levelpack: ")
-SaveMapPack(leveldir+kids_dir+lpkname+".thp")
-lpkname:String = ""
-Case 1
-lpkname:String = Input$("Levelpack: ")
-SaveMapPack(leveldir+standard_dir+lpkname+".thp")
-lpkname:String = ""
-End Select
-lpkmode:Int = 0
-End Function
-
-Function LoadMapScreen()
-lpkmode:Int = 0
-lpkname:String = ""
-'startinit
-Print("Load - Game - Levelpack")
-Print("0 - kids")
-Print("1 - standard")
-lpkmode:Int = Int(Input("Levelmode: "))
-Select lpkmode
-Case 0
-lpkname:String = Input$("Levelpack: ")
-LoadMapPack(leveldir+kids_dir+lpkname+".thp")
-lpkname:String = ""
-Case 1
-lpkname:String = Input$("Levelpack: ")
-LoadMapPack(leveldir+standard_dir+lpkname+".thp")
-lpkname:String = ""
-End Select
-lpkmode:Int = 0
-'clear
-Cls
-LoadWorldConfig("data\editor\config\worlds\w"+worldtype+".cfg")
-LoadWorldResources()
+If scroll_y > map_height[currlv] Then If KeyDown(KEY_DOWN) Then scroll_y=scroll_y-1
 End Function
