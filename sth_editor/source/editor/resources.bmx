@@ -2,14 +2,14 @@ Function LoadResources()
 DebugLog("Loading Default Resources.")
 'Common
 
-img_hero=LoadImage(Hero_Filename)
-img_ice1=LoadImage(Ice1_Filename)
-img_ice2=LoadImage(Ice2_Filename)
-img_score=LoadImage(Score_Filename)
-img_life=LoadImage(Life_Filename)
-img_trap=LoadImage(Trap_Filename)
-img_bomb=LoadImage(Bomb_Filename)
-img_fakehero=LoadImage(Fakehero_Filename)
+img_hero=LoadImage(rootdir + "common/hero.png")
+img_ice1=LoadImage(rootdir + "worlds/common/ice1.png")
+img_ice2=LoadImage(rootdir + "worlds/common/ice2.png")
+img_score=LoadImage(rootdir + "bonuses/score.png")
+img_life=LoadImage(rootdir + "bonuses/life.png")
+img_trap=LoadImage(rootdir + "items/trap.png")
+img_bomb=LoadImage(rootdir + "items/bomb_1.png")
+img_fakehero=LoadImage(rootdir + "items/fakehero.png")
 End Function
 
 Function LoadWorldResources()
@@ -17,245 +17,88 @@ DebugLog("Loading World Resources.")
 'Common
 
 img_key=LoadImage(Key_Filename)
-'check image
-If img_key Then
-DebugLog("Image Loaded: " + Key_Filename)
-Else
-globalerror("Couldn't Image: " + Key_Filename)
-EndIf
-
-'Backgrounds
-
-'Background1
-img_background1=LoadImage(Background1_Filename)
-'check image
-If img_background1 Then
-DebugLog("Image Loaded: " + Background1_Filename)
-Else
-globalerror("Couldn't Image: " + Background1_Filename)
-EndIf
-
-'Background2
-img_background2=LoadImage(Background2_Filename)
-'check image
-If img_background2 Then
-DebugLog("Image Loaded: " + Background2_Filename)
-Else
-globalerror("Couldn't Image: " + Background2_Filename)
-EndIf
 
 'Blocks
+Local currentWorldTypeX:Int = currentWorldType+1
 
+DebugLog(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/block.png")
 'Block1
-img_block_ground=LoadAnimImage(Block_Filename,40,40,0,16)
-'check image
-If img_block_ground Then
-DebugLog("Image Loaded: " + Block_Filename)
-Else
-globalerror("Couldn't Image: " + Block_Filename)
-EndIf
+img_block_ground=LoadAnimImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/block.png",40,40,0,16)
 
 'Block2
-img_block2_ground=LoadAnimImage(Block2_Filename,40,40,0,16)
-'check image
-If img_block2_ground Then
-DebugLog("Image Loaded: " + Block2_Filename)
-Else
-globalerror("Couldn't Image: " + Block2_Filename)
-EndIf
+img_block2_ground=LoadAnimImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/block2.png",40,40,0,16)
 
 'Rock
-img_block_rock=LoadAnimImage(Concrete_Filename,40,40,0,16)
-'check image
-If img_block_rock Then
-DebugLog("Image Loaded: " + Concrete_Filename)
-Else
-globalerror("Couldn't Image: " + Concrete_Filename)
-EndIf
+img_block_rock=LoadAnimImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/concrete.png",40,40,0,16)
 
 'Exit
-img_exit=LoadImage(Exit_Filename)
-'check image
-If img_exit Then
-DebugLog("Image Loaded: " + Exit_Filename)
-Else
-globalerror("Couldn't Image: " + Exit_Filename)
-EndIf
+img_exit=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/exit.png")
 
 'Closed-Exit
-img_exit_closed=LoadImage(Exit_Closed_Filename)
-'check image
-If img_exit_closed Then
-DebugLog("Image Loaded: " + Exit_Closed_Filename)
-Else
-globalerror("Couldn't Image: " + Exit_Closed_Filename)
-EndIf
+img_exit_closed=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/exit_closed.png")
 
 'Ladder
-img_ladder=LoadImage(Ladder_Filename)
-'check image
-If img_ladder Then
-DebugLog("Image Loaded: " + Ladder_Filename)
-Else
-globalerror("Couldn't Image: " + Ladder_Filename)
-EndIf
-
-'Ladder-Knob
-img_ladder_knob=LoadImage(Ladder_Knob_Filename)
-'check image
-If img_ladder_knob Then
-DebugLog("Image Loaded: " + Ladder_Knob_Filename)
-Else
-globalerror("Couldn't Image: " + Ladder_Knob_Filename)
-EndIf
+img_ladder=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/ladder.png")
 
 'Hidden-Ladder
-img_hidden_ladder=LoadImage(Hidden_Ladder_Filename)
-'check image
-If img_hidden_ladder Then
-DebugLog("Image Loaded: " + Hidden_Ladder_Filename)
-Else
-globalerror("Couldn't Image: " + Hidden_Ladder_Filename)
-EndIf
-
-'Hidden-Ladder-Knob
-img_hidden_ladder_knob=LoadImage(Hidden_Ladder_Knob_Filename)
-'check image
-If img_hidden_ladder_knob Then
-DebugLog("Image Loaded: " + Hidden_Ladder_Knob_Filename)
-Else
-globalerror("Couldn't Image: " + Hidden_Ladder_knob_Filename)
-EndIf
+img_hidden_ladder=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/hidden_ladder.png")
 
 'Hangbar
-img_hbar=LoadImage(HBar_Filename)
-'check image
-If img_hbar Then
-DebugLog("Image Loaded: " + HBar_Filename)
-Else
-globalerror("Couldn't Image: " + HBar_Filename)
-EndIf
-
-'Handbar-Knob
-img_hbar_knob=LoadImage(HBar_Knob_Filename)
-'check image
-If img_hbar_knob Then
-DebugLog("Image Loaded: " + HBar_Knob_Filename)
-Else
-globalerror("Couldn't Image: " + HBar_Knob_Filename)
-EndIf
+img_hbar=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/blocks/hbar.png")
 
 'Objects
 
 'Teleport-In
-img_teleport_in=LoadImage(Teleport_In_Filename)
-'check image
-If img_teleport_in Then
-DebugLog("Image Loaded: " + Teleport_In_Filename)
-Else
-globalerror("Couldn't Image: " + Teleport_In_Filename)
-EndIf
+img_teleport_in=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/objects/teleport_in.png")
 
 'Teleport-Out
-img_teleport_out=LoadImage(Teleport_Out_Filename)
-'check image
-If img_teleport_out Then
-DebugLog("Image Loaded: " + Teleport_Out_Filename)
-Else
-globalerror("Couldn't Image: " + Teleport_Out_Filename)
-EndIf
+img_teleport_out=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/objects/teleport_out.png")
 
 'Monsters
 
 'MonsterGuard
-img_monster_guard=LoadImage(MonsterGuard_Filename)
-'check image
-If img_monster_guard Then
-DebugLog("Image Loaded: " + MonsterGuard_Filename)
-Else
-globalerror("Couldn't Image: " + MonsterGuard_Filename)
+If gameID = "sth1" Or gameID = "sth2" Then
+Select currentWorldTypeX
+Case 1
+   img_monster_guard=LoadImage(rootdir+"monsters/"+gameID+"/stoneman.png")
+Case 2
+   img_monster_guard=LoadImage(rootdir+"monsters/"+gameID+"/stoneman2.png")
+Case 3
+   img_monster_guard=LoadImage(rootdir+"monsters/"+gameID+"/stoneman2.png")
+End Select
 EndIf
 
-'MonsterGuard-Smart
-img_monster_guard_smart=LoadImage(MonsterGuard_Smart_Filename)
-'check image
-If img_monster_guard_smart Then
-DebugLog("Image Loaded: " + MonsterGuard_Smart_Filename)
-Else
-globalerror("Couldn't Image: " + MonsterGuard_Smart_Filename)
+If gameID = "sth3" Then
+   img_monster_guard=LoadImage(rootdir+"monsters/"+gameID+"/stoneman.png")
+EndIf
+
+If gameID = "sth3" Then
+   img_monster_guard_smart=LoadImage(rootdir+"monsters/"+gameID+"/stoneman2.png")
 EndIf
 
 'MonsterSmart
 img_monster_smart=LoadImage(MonsterSmart_Filename)
-'check image
-If img_monster_smart Then
-DebugLog("Image Loaded: " + MonsterSmart_Filename)
-Else
-globalerror("Couldn't Image: " + MonsterSmart_Filename)
-EndIf
 
 'MonsterSmart-Spawner
 img_monster_smart_spawner=LoadImage(MonsterSmart_Spawner_Filename)
-'check image
-If img_monster_smart_spawner Then
-DebugLog("Image Loaded: " + MonsterSmart_Spawner_Filename)
-Else
-globalerror("Couldn't Image: " + MonsterSmart_Spawner_Filename)
-EndIf
 
 'Gems
 
 'Gem1
-img_gem1=LoadImage(Gem1_Filename)
-'check image
-If img_gem1 Then
-DebugLog("Image Loaded: " + Gem1_Filename)
-Else
-globalerror("Couldn't Image: " + Gem1_Filename)
-EndIf
+img_gem1=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/gems/gem1.png")
 
 'Gem2
-img_gem2=LoadImage(Gem2_Filename)
-'check image
-If img_gem2 Then
-DebugLog("Image Loaded: " + Gem2_Filename)
-Else
-globalerror("Couldn't Image: " + Gem2_Filename)
-EndIf
+img_gem2=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/gems/gem2.png")
 
 'Gem3
-img_gem3=LoadImage(Gem3_Filename)
-'check image
-If img_gem3 Then
-DebugLog("Image Loaded: " + Gem3_Filename)
-Else
-globalerror("Couldn't Image: " + Gem3_Filename)
-EndIf
+img_gem3=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/gems/gem3.png")
 
 'Gem4
-img_gem4=LoadImage(Gem4_Filename)
-'check image
-If img_gem4 Then
-DebugLog("Image Loaded: " + Gem4_Filename)
-Else
-globalerror("Couldn't Image: " + Gem4_Filename)
-EndIf
+img_gem4=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/gems/gem4.png")
 
 'Gem5
-img_gem5=LoadImage(Gem5_Filename)
-'check image
-If img_gem5 Then
-DebugLog("Image Loaded: " + Gem5_Filename)
-Else
-globalerror("Couldn't Image: " + Gem5_Filename)
-EndIf
+img_gem5=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/gems/gem5.png")
 
 'Gem6
-img_gem6=LoadImage(Gem6_Filename)
-'check image
-If img_gem6 Then
-DebugLog("Image Loaded: " + Gem6_Filename)
-Else
-globalerror("Couldn't Image: " + Gem6_Filename)
-EndIf
+img_gem6=LoadImage(rootdir+"worlds/"+gameID+"/"+currentWorldTypeX+"/gems/gem6.png")
 End Function
