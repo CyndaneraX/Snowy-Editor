@@ -4,7 +4,7 @@ Include "source\editor\map.bmx"
 Include "source\editor\mapdata.bmx"
 
 AppTitle = "Snowy Treasure Hunter Editor"
-Graphics 800, 600
+Graphics width, height
 
 InitMap()
 

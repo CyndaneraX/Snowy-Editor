@@ -1,16 +1,24 @@
 Function InitMap()
     For i:Int = 0 To 1000 - 1
-        mapWidth[i] = 40
-        mapHeight[i] = 30
+        mapWidth[i] = 0
+        mapHeight[i] = 0
         worldType[i] = 0
     Next
 
+If gameID = "sth1" Then currMapVersion = mapVersion3
+If gameID = "sth2" Then currMapVersion = mapVersion3
+If gameID = "sth3" Then currMapVersion = mapVersion3
+
+CreateDir("packs")
+CreateDir("packs/kids")
+CreateDir("packs/standard")
+
 LoadResources()
-LoadMap(packsdir+"standard\0.th3")
-LoadWorldResources()
 End Function
 
 Function DrawMap()
+If img_background Then DrawImage(img_background, 0, 0)
+
 For x=0 To mapWidth[currlv]-1
 For y=0 To mapHeight[currlv]-1
 Select mapData(currlv, x, y, 1)
@@ -29,22 +37,48 @@ Case 378
 If img_gem6 Then DrawImage(img_gem6,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
 Case 0835
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("0",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0836
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("1",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0837
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("2",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0838
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("3",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0839
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("4",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0840
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("5",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0841
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("6",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0842
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("7",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 0843
 If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("8",scroll_x+x*tsize,scroll_y+y*tsize)
+Case 0844
+If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("9",scroll_x+x*tsize,scroll_y+y*tsize)
+Case 0845
+If img_arrow2 Then DrawImage(img_arrow2,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+Case 0846
+If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("10",scroll_x+x*tsize,scroll_y+y*tsize)
+Case 0847
+If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("11",scroll_x+x*tsize,scroll_y+y*tsize)
+Case 0848
+If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("12",scroll_x+x*tsize,scroll_y+y*tsize)
+Case 0849
+If img_hint Then DrawImage(img_hint,scroll_x+x*tsize-12,scroll_y+y*tsize-10)
+DrawText("13",scroll_x+x*tsize,scroll_y+y*tsize)
 Default'DEFAULT
 DrawText("O"+mapData(currlv, x,y, 1),scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 'DebugLog("Object:"+mapData(currlv, x, y, 1))
@@ -65,6 +99,9 @@ If img_block_rock Then DrawImage(img_block_rock,scroll_x+x*tsize,scroll_y+y*tsiz
 Case 4
 If img_block_ground Then DrawImage(img_block_ground,scroll_x+x*tsize,scroll_y+y*tsize)
 If img_ice1 Then DrawImage(img_ice1,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+Case 5
+If img_block2_ground Then DrawImage(img_block_ground,scroll_x+x*tsize,scroll_y+y*tsize)
+If img_ice2 Then DrawImage(img_ice2,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 Case 6
 If img_ladder Then DrawImage(img_ladder,scroll_x+x*tsize,scroll_y+y*tsize)
 Case 7
@@ -167,13 +204,17 @@ DrawText("14",scroll_x+x*tsize,scroll_y+y*tsize)
 Case 41'Tel-Out15
 If img_teleport_out Then DrawImage(img_teleport_out,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 DrawText("15",scroll_x+x*tsize,scroll_y+y*tsize)
-Case 142'MonsterGuard
+Case 142'MonsterGuard-Right
 If img_monster_guard Then DrawImage(img_monster_guard,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+Case 143'MonsterGuard-Left
+If img_monster_guard_left Then DrawImage(img_monster_guard_left,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+Case 144'MonsterGuard-Smart-Right
+If img_monster_guard_smart_right Then DrawImage(img_monster_guard_smart_right,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 Case 145'MonsterGuard-Smart
 If img_monster_guard_smart Then DrawImage(img_monster_guard_smart,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
-Case 483
+Case 483'Score
 If img_score Then DrawImage(img_score,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
-Case 484
+Case 484'Life
 If img_live Then DrawImage(img_live,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 Case 146'SmartMonster1
 If img_monster_smart Then DrawImage(img_monster_smart,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
@@ -207,6 +248,18 @@ Case 271'Item-Bomb
 If img_bomb Then DrawImage(img_bomb,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 Case 272'Item-Fakehero
 If img_fakehero Then DrawImage(img_fakehero,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+Case 587'Cover
+If img_cover Then DrawImage(img_cover,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+Case 266'Hammer
+If img_hammerX Then DrawImage(img_hammerX,scroll_x+x*tsize-8,scroll_y+y*tsize-17)
+Case 966'Preset1
+If img_preset1 Then DrawImage(img_preset1,scroll_x+x*tsize,scroll_y+y*tsize)
+Case 967'Preset2
+If img_preset2 Then DrawImage(img_preset2,scroll_x+x*tsize,scroll_y+y*tsize)
+Case 968'Preset3
+If img_preset3 Then DrawImage(img_preset3,scroll_x+x*tsize,scroll_y+y*tsize)
+Case 969'Preset4
+If img_preset4 Then DrawImage(img_preset4,scroll_x+x*tsize,scroll_y+y*tsize)
 Default'DEFAULT
 DrawText("T"+mapData(currlv, x,y, 0),scroll_x+x*tsize-8,scroll_y+y*tsize-17)
 'DebugLog("Tile:"+mapData(currlv, x, y, 0))
@@ -214,43 +267,99 @@ End Select
 Next
 Next
 
-If KeyHit(KEY_RIGHT) Then
-    camera_x = camera_x + 1
-    scroll_x = scroll_x - tsize
+If packtype = "kids/" Then 
+packtypename = "kids"
+Else
+packtypename = "standard"
 EndIf
 
-If KeyHit(KEY_LEFT) Then
+If KeyDown(KEY_RIGHT) Then
+    If camera_x = mapWidth[currlv]+1 Then
+    Else
+
+    Delay 50
+    camera_x = camera_x + 1
+    scroll_x = scroll_x - tsize
+    EndIf
+EndIf
+
+If KeyDown(KEY_LEFT) Then
+    Delay 50
     camera_x = camera_x - 1
     scroll_x = scroll_x + tsize
 EndIf
 
-If KeyHit(KEY_DOWN) Then
+If KeyDown(KEY_DOWN) Then
+    If camera_y = mapHeight[currlv]+1 Then
+    Else
+
+    Delay 50
     camera_y = camera_y + 1
     scroll_y = scroll_y - tsize
+    EndIf
 EndIf
 
-If KeyHit(KEY_UP) Then
+If KeyDown(KEY_UP) Then
+    Delay 50
     camera_y = camera_y - 1
     scroll_y = scroll_y + tsize
 EndIf
 
 DrawRect (((scroll_x-scroll_x+MouseX())/tsize)*tsize)-1,(((scroll_y-scroll_y+MouseY())/tsize)*tsize)-1,tsize+2,tsize+2
 
-If KeyHit(KEY_W) Then 
+If currlv = -1 Then currlv = levelCount
+If currlv = levelCount+1 Then currlv = 0
+
+If KeyHit(KEY_3) Then 
+currlv = currlv + 1
+LoadWorldResources()
+Cls
+DebugLog("Level:"+currlv)
+EndIf
+
+If KeyHit(KEY_4) Then
+If currlv = -1 Then
+currlv = levelCount
+Else
+If currlv = 0 Then currlv = currlv + 1
+currlv = currlv - 1
+LoadWorldResources()
+Cls
+DebugLog("Level:"+currlv)
+EndIf
+EndIf
+
+If gameID = "sth3" Then
+Else
+If currPack = 0 Then
+mapFlags[currlv] = -1
+Else
+mapFlags[currlv] = 12
+EndIf
+EndIf
+
+If KeyHit(KEY_W) Then
 worldtype[currlv] = worldtype[currlv] + 1 'Forwards worldtype
+currWorldType = worldtype[currlv]
 LoadWorldResources()
 Cls
 DebugLog("Worldtype: "+worldtype[currlv])
 EndIf
 
-If KeyHit(KEY_D) Then 
+If KeyHit(KEY_O) Then 
 worldtype[currlv] = worldtype[currlv] - 1 'Backwards worldtypes
+currWorldType = worldtype[currlv]
 LoadWorldResources()
 Cls
 DebugLog("Worldtype: "+worldtype[currlv])
 EndIf
 
 DrawText "Worldtype:"+worldtype[currlv],0,20
+
+DrawText "Episode:"+gameID,0,40
+DrawText "Pack:"+currPack,width-80,0
+DrawText "Level:"+currlv,width-80,20
+DrawText "Mode:"+packtypename,0,60
 
 Select editmode
 Case 0'Tilemode
@@ -365,7 +474,24 @@ Case 54
 DrawText "Tiletype:Monster-Smart4",0,0
 Case 55
 DrawText "Tiletype:Monster-Smart4-Spawner",0,0
+Case 56
+DrawText "Tiletype:Cover",0,0
+Case 57
+DrawText "Tiletype:Hammer",0,0
+Case 58
+DrawText "Tiletype:Stoneman-Right",0,0
+Case 59
+DrawText "Tiletype:Smart-Stoneman-Left",0,0
+Case 60
+DrawText "Tiletype:Preset1",0,0
+Case 61
+DrawText "Tiletype:Preset2",0,0
+Case 62
+DrawText "Tiletype:Preset3",0,0
+Case 63
+DrawText "Tiletype:Preset4",0,0
 End Select
+
 Case 1'Objectmode
 Select tiletype
 Case 1
@@ -396,6 +522,18 @@ Case 13
 DrawText "Tiletype:Hint7",0,0
 Case 14
 DrawText "Tiletype:Hint8",0,0
+Case 15
+DrawText "Tiletype:Hint9",0,0
+Case 16
+DrawText "Tiletype:Arrow2",0,0
+Case 17
+DrawText "Tiletype:Hint10",0,0
+Case 18
+DrawText "Tiletype:Hint11",0,0
+Case 19
+DrawText "Tiletype:Hint12",0,0
+Case 20
+DrawText "Tiletype:Hint13",0,0
 End Select
 End Select
 End Function
@@ -403,6 +541,21 @@ End Function
 Function UpdateMap()
 Local mx:Int = (scroll_x-scroll_x-scroll_x+MouseX())/tsize
 Local my:Int = (scroll_y-scroll_y-scroll_y+MouseY())/tsize
+
+If camera_x = 0 Or camera_x = -1 Then
+    camera_x = 0
+    scroll_x = 0
+EndIf
+
+If camera_y = 0 Or camera_y = -1 Then
+    scroll_y = 0
+    camera_y = 0
+EndIf
+
+If episode = 3 Then episode = 0
+If episode = -1 Then episode = 2
+
+If currPack = -1 Then currPack = 0
 
 'control editmode
 If editmode=2 Then editmode=0
@@ -412,11 +565,11 @@ If worldtype[currlv]=-1 Then worldtype[currlv]=0
 
 Select editmode
 Case 0'Tilemode
-If tiletype=0 Or tiletype=-1 Then tiletype=55
-If tiletype=56 Then tiletype=1
+If tiletype=0 Or tiletype=-1 Then tiletype=63
+If tiletype=64 Then tiletype=1
 Case 1'Objectmode
-If tiletype=0 Or tiletype=-1 Then tiletype=14
-If tiletype=15 Then tiletype=1
+If tiletype=0 Or tiletype=-1 Then tiletype=20
+If tiletype=21 Then tiletype=1
 End Select
 
 If KeyHit(KEY_0) Then
@@ -428,13 +581,62 @@ If KeyHit(KEY_2) Then tiletype=tiletype+1
 
 'Map Data
 'Saving Map Data
-If KeyHit(KEY_S) Then SaveMap(packsDir+"standard\0.th3")
+
+If KeyHit(KEY_K) Then
+    LoadWorldResources()
+    setPackExt()
+    NewMap(packsDir+packtype+currPack+"."+ext)
+EndIf
+
+If KeyHit(KEY_N) Then
+    NewLevel()
+EndIf
+
+If KeyHit(KEY_D) Then
+    DeleteLevel()
+EndIf
+
+If KeyHit(KEY_S) Then
+    setPackExt()
+    SaveMap(packsDir+packtype+currPack+"."+ext)
+EndIf
+
 'Loading Map Data
-If KeyHit(KEY_L) Then LoadMap(packsDir+"standard\0.th3")
+If KeyHit(KEY_L) Then
+    setPackExt()
+    LoadMap(packsDir+packtype+currPack+"."+ext)
+    currWorldType = worldType[0]
+    LoadWorldResources()
+    Cls
+EndIf
+
+'Change GameID
+If KeyHit(KEY_E) Then
+     episode = episode + 1
+
+     Select episode
+     Case 1
+         gameID = "sth2"
+     Case 2
+         gameID = "sth3"
+     Default
+         gameID = "sth1"
+     End Select
+
+     If gameID = "sth1" Then currMapVersion = mapVersion3
+     If gameID = "sth2" Then currMapVersion = mapVersion3
+     If gameID = "sth3" Then currMapVersion = mapVersion3
+
+     LoadWorldResources()
+     Cls
+EndIf
+
 'place tile
 If MouseDown(MOUSE_LEFT) Then
 Select editmode
 Case 0'Tilemode
+If mapData(currlv, mapWidth[currlv]+1, mapHeight[currlv]+1, 0) Then
+Else
 Select tiletype
 Case 1
 DebugLog "Placed Tile:Block"
@@ -558,7 +760,7 @@ mapData(currlv, mx,my, 0) = 41
 DebugLog "Placed Tile:Teleport-Out15"
 Case 41
 mapData(currlv, mx,my, 0) = 142
-DebugLog "Placed Tile:Stoneman"
+DebugLog "Placed Tile:Stoneman-Right"
 Case 42
 mapData(currlv, mx,my, 0) = 483
 DebugLog "Placed Tile:Score"
@@ -573,7 +775,7 @@ mapData(currlv, mx,my, 0) = 269
 DebugLog "Placed Tile:Item-Cage"
 Case 46
 mapData(currlv, mx,my, 0) = 145
-DebugLog "Placed Tile:Smart-Stoneman"
+DebugLog "Placed Tile:Smart-Stoneman-Left"
 Case 47
 mapData(currlv, mx,my, 0) = 147
 DebugLog "Placed Tile:Monster-Smart2"
@@ -601,8 +803,35 @@ DebugLog "Placed Tile:Monster-Smart4"
 Case 55
 mapData(currlv, mx,my, 0) = 159
 DebugLog "Placed Tile:Monster-Smart4-Spawner"
+Case 56
+mapData(currlv, mx,my, 0) = 587
+DebugLog "Placed Tile:Cover"
+Case 57
+mapData(currlv, mx,my, 0) = 266
+DebugLog "Placed Tile:Hammer"
+Case 58
+mapData(currlv, mx,my, 0) = 143
+DebugLog "Placed Tile:Stoneman-Right"
+Case 59
+mapData(currlv, mx,my, 0) = 144
+DebugLog "Placed Tile:Smart-Stoneman-Left"
+Case 60
+mapData(currlv, mx,my, 0) = 966
+DebugLog "Placed Tile:Preset1"
+Case 61
+mapData(currlv, mx,my, 0) = 967
+DebugLog "Placed Tile:Preset2"
+Case 62
+mapData(currlv, mx,my, 0) = 968
+DebugLog "Placed Tile:Preset3"
+Case 63
+mapData(currlv, mx,my, 0) = 969
+DebugLog "Placed Tile:Preset4"
 End Select
+EndIf
 Case 1'Objectmode
+If mapData(currlv, mapWidth[currlv]+1, mapHeight[currlv]+1, 1) Then
+Else
 Select tiletype
 Case 1
 mapData(currlv, mx,my, 1) = 373
@@ -646,7 +875,26 @@ DebugLog "Placed Tile:Hint7"
 Case 14
 mapData(currlv, mx,my, 1) = 0843
 DebugLog "Placed Tile:Hint8"
+Case 15
+mapData(currlv, mx,my, 1) = 0844
+DebugLog "Placed Tile:Hint9"
+Case 16
+mapData(currlv, mx,my, 1) = 0845
+DebugLog "Placed Tile:Arrow2"
+Case 17
+mapData(currlv, mx,my, 1) = 0846
+DebugLog "Placed Tile:Hint10"
+Case 18
+mapData(currlv, mx,my, 1) = 0847
+DebugLog "Placed Tile:Hint11"
+Case 19
+mapData(currlv, mx,my, 1) = 0848
+DebugLog "Placed Tile:Hint12"
+Case 20
+mapData(currlv, mx,my, 1) = 0849
+DebugLog "Placed Tile:Hint13"
 End Select
+EndIf
 End Select
 EndIf
 
@@ -665,4 +913,12 @@ mapData(currlv, mx,my, 1) = 0
 EndIf
 End Select
 EndIf
+End Function
+
+Function setPackExt()
+    If gameID = "sth3" Then
+        ext = "th3"
+    Else
+        ext = "thp"
+    EndIf
 End Function

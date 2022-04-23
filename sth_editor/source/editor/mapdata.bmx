@@ -1,3 +1,66 @@
+Function NewMap(filename:String)
+   Local file:TStream = WriteFile(filename)
+
+   If file Then
+      mapWidth[0] = 40
+      mapHeight[0] = 30
+      currlv = 0
+
+      DebugLog("Map Created:"+filename)
+      
+      WriteInt(file, currMapVersion)
+      WriteInt(file, headerSize)
+      WriteInt(file, 1)
+      
+      For i = 0 To 1 - 1
+        WriteShort(file, 0)
+
+        If gameID = "sth3" Then
+		    WriteShort(file, 0)
+	    Else
+	        If currPack = 0 Then
+	            WriteShort(file, -1)
+	        Else
+	            WriteShort(file, 12)
+	        EndIf
+		EndIf
+		
+            If currMapVersion = mapVersion3 Then
+		    Else
+		        WriteInt(file, 0)
+		        WriteInt(file, 0)
+		        WriteInt(file, 0)
+                WriteShort(file, 40)
+                WriteShort(file, 30)
+		    EndIf
+		
+		    If currMapVersion = mapVersion3 Then
+		        For j = 0 To mapPropMax - 1
+		            WriteInt(file, 0)
+		        Next
+		    EndIf
+
+        'Write Tiles
+        For x=0 To mapHeight[i] - 1
+           For y=0 To mapWidth[i] - 1
+              WriteShort(file, 0)
+           Next
+        Next
+
+       'Write Objects
+        For x=0 To mapHeight[i] - 1
+           For y=0 To mapWidth[i] - 1
+              WriteShort(file, 0)
+           Next
+        Next
+      Next
+
+      CloseFile(file)
+   Else
+      DebugLog("Couldn't Create LevelPack: "+filename)
+   EndIf
+End Function
+
 Function LoadMap(filename:String)
    Local file:TStream = ReadFile(filename)
 
@@ -27,6 +90,9 @@ Function LoadMap(filename:String)
 		    EndIf
 		    
 		    If mapSign = mapVersion3 Then
+		        mapWidth[i] = 40
+		        mapHeight[i] = 30
+		
 		        For j = 0 To mapPropMax - 1
 		            mapPropData[i, j] = ReadInt(file)
 		        Next
@@ -86,6 +152,11 @@ Function SaveMap(filename:String)
         'Write Tiles
         For x=0 To mapHeight[i] - 1
            For y=0 To mapWidth[i] - 1
+              'check for player
+              If Not mapData[i, y, x, 0] = 11 Then
+                 mapData[i, 0, 0, 0] = 11
+              EndIf
+
               WriteShort(file, mapData[i, y, x, 0])
            Next
         Next
@@ -102,4 +173,35 @@ Function SaveMap(filename:String)
    Else
       DebugLog("Couldn't Save LevelPack: "+filename)
    EndIf
+End Function
+
+Function NewLevel()
+    levelCount = levelCount + 1
+    currlv = currlv + 1
+    mapWidth[currlv] = 40
+    mapHeight[currlv] = 30
+End Function
+
+Function DeleteLevel()
+    levelCount = levelCount - 1
+
+    mapWidth[currlv] = 0
+    mapHeight[currlv] = 0
+    worldType[currlv] = 0
+
+        'Delete Tiles
+        For x=0 To mapHeight[currlv] - 1
+           For y=0 To mapWidth[currlv] - 1
+              mapData[currlv, y, x, 0] = 0
+           Next
+        Next
+
+       'Delete Objects
+        For x=0 To mapHeight[currlv] - 1
+           For y=0 To mapWidth[currlv] - 1
+              mapData[currlv, y, x, 1] = 0
+           Next
+        Next
+
+    currlv = currlv - 1
 End Function
