@@ -93,10 +93,9 @@ img_hint=LoadImage(rootdir+"common/hint_point.png")
 img_arrow2=LoadImage(rootdir+"common/arrow2.png")
 
 'Monsters
-
 'MonsterGuard
 If gameID = "sth1" Or gameID = "sth2" Then
-Select currWorldType
+Select currentWorldTypeX
 Case 1
    img_monster_guard=LoadImage(rootdir+"monsters/"+gameID+"/stoneman.png")
    img_monster_guard_smart=LoadImage(rootdir+"monsters/"+gameID+"/stoneman_smart.png")
@@ -113,9 +112,7 @@ Case 3
    img_monster_guard_left=LoadImage(rootdir+"monsters/"+gameID+"/stoneman2_left.png")
    img_monster_guard_smart_right=LoadImage(rootdir+"monsters/"+gameID+"/stoneman2_smart_right.png")
 End Select
-EndIf
-
-If gameID = "sth3" Then
+Else
    img_monster_guard=LoadImage(rootdir+"monsters/"+gameID+"/stoneman.png")
    img_monster_guard_smart=LoadImage(rootdir+"monsters/"+gameID+"/stoneman2.png")
    img_monster_guard_left=LoadImage(rootdir+"monsters/"+gameID+"/stoneman_left.png")

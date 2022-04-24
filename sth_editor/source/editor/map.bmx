@@ -7,15 +7,20 @@ Function InitMap()
 
 LevelCount = 1
 
-If gameID = "sth1" Then currMapVersion = mapVersion3
-If gameID = "sth2" Then currMapVersion = mapVersion3
+If gameID = "sth1" Then currMapVersion = mapVersion1
+If gameID = "sth2" Then currMapVersion = mapVersion2
 If gameID = "sth3" Then currMapVersion = mapVersion3
+
+If gameID = "sth1" Then episode = 0
+If gameID = "sth2" Then episode = 1
+If gameID = "sth3" Then episode = 2
 
 CreateDir("packs")
 CreateDir("packs/kids")
 CreateDir("packs/standard")
 
 LoadResources()
+LoadWorldResources()
 End Function
 
 Function DrawMap()
@@ -585,6 +590,10 @@ Function UpdateMap()
 Local mx:Int = (scroll_x-scroll_x-scroll_x+MouseX())/tsize
 Local my:Int = (scroll_y-scroll_y-scroll_y+MouseY())/tsize
 
+If gameID = "sth1" Then currMapVersion = mapVersion1
+If gameID = "sth2" Then currMapVersion = mapVersion2
+If gameID = "sth3" Then currMapVersion = mapVersion3
+
 If camera_x = 0 Or camera_x = -1 Then
     camera_x = 0
     scroll_x = 0
@@ -594,9 +603,6 @@ If camera_y = 0 Or camera_y = -1 Then
     scroll_y = 0
     camera_y = 0
 EndIf
-
-If episode = 3 Then episode = 0
-If episode = -1 Then episode = 2
 
 If currPack = -1 Then currPack = 0
 
@@ -671,26 +677,44 @@ If KeyHit(KEY_9) Then
     currPack = currPack - 1
 EndIf
 
+If episode = 3 Then episode = 0
+If episode = -1 Then episode = 2
+
 'Change GameID
 If KeyHit(KEY_E) Then
      episode = episode + 1
-
+     
      Select episode
+     Case -1
+         gameID = "sth3"
+         LoadResources()
+         LoadWorldResources()
+         Cls
+         episode = 2
+     Case 0
+         gameID = "sth1"
+         LoadResources()
+         LoadWorldResources()
+         Cls
      Case 1
          gameID = "sth2"
+         LoadResources()
+         LoadWorldResources()
+         Cls
      Case 2
          gameID = "sth3"
-     Default
+         LoadResources()
+         LoadWorldResources()
+         Cls
+     Case 3
+         episode = 0
          gameID = "sth1"
+         LoadResources()
+         LoadWorldResources()
+         Cls
      End Select
 
-     If gameID = "sth1" Then currMapVersion = mapVersion3
-     If gameID = "sth2" Then currMapVersion = mapVersion3
-     If gameID = "sth3" Then currMapVersion = mapVersion3
-
-     LoadResources()
-     LoadWorldResources()
-     Cls
+     DebugLog(episode)
 EndIf
 
 'place tile

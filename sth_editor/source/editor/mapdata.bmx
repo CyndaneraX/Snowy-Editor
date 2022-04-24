@@ -19,11 +19,14 @@ Function LoadMap(filename:String)
             
 		    If mapSign = mapVersion3 Then
 		    Else
-		        mapPropData[i, 0] = ReadInt(file)
-		        mapPropData[i, 1] = ReadInt(file)
-		        mapPropData[i, 2] = ReadInt(file)
+		        ReadInt(file)
+		        ReadInt(file)
+		        ReadInt(file)
                 ReadShort(file)
                 ReadShort(file)
+
+                mapWidth[i] = 40
+		        mapHeight[i] = 30
 		    EndIf
 		    
 		    If mapSign = mapVersion3 Then
@@ -64,7 +67,7 @@ Function SaveMap(filename:String)
       DebugLog("Map Saved:"+filename)
       
       WriteInt(file, currMapVersion)
-      WriteInt(file, headerSize)
+      WriteInt(file, 16)
       WriteInt(file, levelCount)
       
       For i = 0 To levelCount - 1
@@ -73,11 +76,11 @@ Function SaveMap(filename:String)
 		
             If currMapVersion = mapVersion3 Then
 		    Else
-		        WriteInt(file, mapPropData[i, 0])
-		        WriteInt(file, mapPropData[i, 1])
-		        WriteInt(file, mapPropData[i, 2])
-                WriteShort(file, mapWidth[i])
-                WriteShort(file, mapHeight[i])
+		        WriteInt(file, 0)
+		        WriteInt(file, 0)
+		        WriteInt(file, 0)
+                WriteShort(file, 40)
+                WriteShort(file, 30)
 		    EndIf
 		    
 		    If currMapVersion = mapVersion3 Then

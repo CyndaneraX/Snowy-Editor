@@ -33,6 +33,7 @@ Global mode:Int = 0
 Global state:Int = 0
 Global currbg:Int = 1
 Global currbgIndex:Int = 0
+Global currpacktype:Int = 0
 'Background
 Global img_background:TImage
 'Blocks

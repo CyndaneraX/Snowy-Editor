@@ -5,7 +5,7 @@ Global height:Int = 600
 Global rootdir:String = "data\editor\"
 Global packsdir:String = "packs\"
 Global packtype:String = "standard\"
-Global gameID:String = "sth3"
+Global gameID:String = "sth1"
 Global mapPropMax = 101
 Global mapWidth[1000]
 Global mapHeight[1000]
