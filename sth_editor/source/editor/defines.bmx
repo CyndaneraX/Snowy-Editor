@@ -5,7 +5,7 @@ Global height:Int = 600
 Global rootdir:String = "data\editor\"
 Global packsdir:String = "packs\"
 Global packtype:String = "standard\"
-Global gameID:String = "sth1"
+Global gameID:String = "sth3"
 Global mapPropMax = 101
 Global mapWidth[1000]
 Global mapHeight[1000]
@@ -29,6 +29,11 @@ Global currPack:Int = 0
 Global ext:String = ""
 Global episode:Int = 0
 Global packtypename:String = ""
+Global mode:Int = 0
+Global state:Int = 0
+Global currbg:Int = 1
+Global currbgIndex:Int = 0
+Global currpacktype:Int = 0
 'Background
 Global img_background:TImage
 'Blocks

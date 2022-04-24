@@ -1,9 +1,11 @@
 Function InitMap()
     For i:Int = 0 To 1000 - 1
-        mapWidth[i] = 0
-        mapHeight[i] = 0
+        mapWidth[i] = 40
+        mapHeight[i] = 30
         worldType[i] = 0
     Next
+
+LevelCount = 1
 
 If gameID = "sth1" Then currMapVersion = mapVersion3
 If gameID = "sth2" Then currMapVersion = mapVersion3
@@ -267,14 +269,26 @@ End Select
 Next
 Next
 
+If currpacktype = 0 Then packtype = "standard/"
+If currpacktype = 1 Then packtype = "kids/"
+
+If currpacktype = - 1 Then currpacktype = 0
+If currpacktype = 2 Then currpacktype = 1
+
 If packtype = "kids/" Then 
 packtypename = "kids"
 Else
 packtypename = "standard"
 EndIf
 
+'Change Pack Type
+If KeyHit(KEY_K) Then
+    currpacktype = currpacktype + 1
+EndIf
+
 If KeyDown(KEY_RIGHT) Then
-    If Not camera_x = mapWidth[currlv]+1 Then 
+    If camera_x = mapWidth[currlv]+1 Then
+    Else
 
     Delay 50
     camera_x = camera_x + 1
@@ -289,7 +303,8 @@ If KeyDown(KEY_LEFT) Then
 EndIf
 
 If KeyDown(KEY_DOWN) Then
-    If Not camera_y = mapHeight[currlv]+1 Then 
+    If camera_y = mapHeight[currlv]+1 Then
+    Else
 
     Delay 50
     camera_y = camera_y + 1
@@ -358,6 +373,36 @@ DrawText "Episode:"+gameID,0,40
 DrawText "Pack:"+currPack,width-80,0
 DrawText "Level:"+currlv,width-80,20
 DrawText "Mode:"+packtypename,0,60
+
+    'BGProps
+    If gameID = "sth3" Then
+    Select currbg
+    Case -1
+    Case 0
+        DrawText "BG9:"+mapPropData[currlv, 0], width-80, 40
+    Case 1
+        DrawText "BG8:"+mapPropData[currlv, 1], width-80, 40
+    Case 2
+        DrawText "BG7:"+mapPropData[currlv, 2], width-80, 40
+    Case 3
+        DrawText "BG6:"+mapPropData[currlv, 3], width-80, 40
+    Case 4
+        DrawText "BG5:"+mapPropData[currlv, 4], width-80, 40
+    Case 5
+        DrawText "BG4:"+mapPropData[currlv, 5], width-80, 40
+    Case 6
+        DrawText "BG3:"+mapPropData[currlv, 6], width-80, 40
+    Case 7
+        DrawText "BG2:"+mapPropData[currlv, 7], width-80, 40
+    Case 8
+        DrawText "BG1:"+mapPropData[currlv, 8], width-80, 40
+    Case 9
+        DrawText "BG0:"+mapPropData[currlv, 9], width-80, 40
+    Case 102
+    Default
+        DrawText "BG"+currbg+":"+mapPropData[currlv, currbg], 0, 0
+    End Select
+    EndIf
 
 Select editmode
 Case 0'Tilemode
@@ -570,21 +615,28 @@ If tiletype=0 Or tiletype=-1 Then tiletype=20
 If tiletype=21 Then tiletype=1
 End Select
 
+    If gameID = "sth3" Then
+        If currbg = - 1 Then currbg = 0
+        If currbg = 102 Then currbg = 101
+
+        If currbgIndex = - 1 Then currbgIndex = 0
+        If currbgIndex = 2 Then currbgIndex = 1
+
+        If KeyHit(KEY_5) Then currbg = currbg + 1
+        If KeyHit(KEY_6) Then currbg = currbg - 1
+        If KeyHit(KEY_7) Then changeBGProp(0)
+    EndIf
+
 If KeyHit(KEY_0) Then
 tiletype=1
 editmode=editmode+1
 EndIf
+
 If KeyHit(KEY_1) Then tiletype=tiletype-1
 If KeyHit(KEY_2) Then tiletype=tiletype+1
 
 'Map Data
 'Saving Map Data
-
-If KeyHit(KEY_K) Then
-    LoadWorldResources()
-    setPackExt()
-    NewMap(packsDir+packtype+currPack+"."+ext)
-EndIf
 
 If KeyHit(KEY_N) Then
     NewLevel()
@@ -608,6 +660,17 @@ If KeyHit(KEY_L) Then
     Cls
 EndIf
 
+If currPack = - 1 Then currPack = 0
+
+'Change Pack
+If KeyHit(KEY_8) Then
+    currPack = currPack + 1
+EndIf
+
+If KeyHit(KEY_9) Then
+    currPack = currPack - 1
+EndIf
+
 'Change GameID
 If KeyHit(KEY_E) Then
      episode = episode + 1
@@ -625,6 +688,7 @@ If KeyHit(KEY_E) Then
      If gameID = "sth2" Then currMapVersion = mapVersion3
      If gameID = "sth3" Then currMapVersion = mapVersion3
 
+     LoadResources()
      LoadWorldResources()
      Cls
 EndIf
@@ -913,10 +977,48 @@ End Select
 EndIf
 End Function
 
+Function EndMap()
+End Function
+
 Function setPackExt()
     If gameID = "sth3" Then
         ext = "th3"
     Else
         ext = "thp"
     EndIf
+End Function
+
+Function changeBGProp(flags=0)
+    If flags = 0 Then
+        currbgIndex = currbgIndex + 1
+    Else
+        currbgIndex = currbgIndex - 1
+    EndIf
+
+    Select currbg
+    Case -1
+    Case 0
+        mapPropData[currlv, 0] = currbgIndex
+    Case 1
+        mapPropData[currlv, 1] = currbgIndex
+    Case 2
+        mapPropData[currlv, 2] = currbgIndex
+    Case 3
+        mapPropData[currlv, 3] = currbgIndex
+    Case 4
+        mapPropData[currlv, 4] = currbgIndex
+    Case 5
+        mapPropData[currlv, 5] = currbgIndex
+    Case 6
+        mapPropData[currlv, 6] = currbgIndex
+    Case 7
+        mapPropData[currlv, 7] = currbgIndex
+    Case 8
+        mapPropData[currlv, 8] = currbgIndex
+    Case 9
+        mapPropData[currlv, 9] = currbgIndex
+    Case 102
+    Default
+        mapPropData[currlv, currbg] = currbgIndex
+    End Select
 End Function

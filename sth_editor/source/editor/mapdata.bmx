@@ -1,66 +1,3 @@
-Function NewMap(filename:String)
-   Local file:TStream = WriteFile(filename)
-
-   If file Then
-      mapWidth[0] = 40
-      mapHeight[0] = 30
-      currlv = 0
-
-      DebugLog("Map Created:"+filename)
-      
-      WriteInt(file, currMapVersion)
-      WriteInt(file, headerSize)
-      WriteInt(file, 1)
-      
-      For i = 0 To 1 - 1
-        WriteShort(file, 0)
-
-        If gameID = "sth3" Then
-		    WriteShort(file, 0)
-	    Else
-	        If currPack = 0 Then
-	            WriteShort(file, -1)
-	        Else
-	            WriteShort(file, 12)
-	        EndIf
-		EndIf
-		
-            If currMapVersion = mapVersion3 Then
-		    Else
-		        WriteInt(file, 0)
-		        WriteInt(file, 0)
-		        WriteInt(file, 0)
-                WriteShort(file, 40)
-                WriteShort(file, 30)
-		    EndIf
-		
-		    If currMapVersion = mapVersion3 Then
-		        For j = 0 To mapPropMax - 1
-		            WriteInt(file, 0)
-		        Next
-		    EndIf
-
-        'Write Tiles
-        For x=0 To mapHeight[i] - 1
-           For y=0 To mapWidth[i] - 1
-              WriteShort(file, 0)
-           Next
-        Next
-
-       'Write Objects
-        For x=0 To mapHeight[i] - 1
-           For y=0 To mapWidth[i] - 1
-              WriteShort(file, 0)
-           Next
-        Next
-      Next
-
-      CloseFile(file)
-   Else
-      DebugLog("Couldn't Create LevelPack: "+filename)
-   EndIf
-End Function
-
 Function LoadMap(filename:String)
    Local file:TStream = ReadFile(filename)
 
@@ -85,8 +22,8 @@ Function LoadMap(filename:String)
 		        mapPropData[i, 0] = ReadInt(file)
 		        mapPropData[i, 1] = ReadInt(file)
 		        mapPropData[i, 2] = ReadInt(file)
-                mapWidth[i] = ReadShort(file)
-                mapHeight[i] = ReadShort(file)
+                ReadShort(file)
+                ReadShort(file)
 		    EndIf
 		    
 		    If mapSign = mapVersion3 Then
@@ -142,7 +79,7 @@ Function SaveMap(filename:String)
                 WriteShort(file, mapWidth[i])
                 WriteShort(file, mapHeight[i])
 		    EndIf
-		
+		    
 		    If currMapVersion = mapVersion3 Then
 		        For j = 0 To mapPropMax - 1
 		            WriteInt(file, mapPropData[i, j])
